@@ -1,0 +1,353 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Popup_AssistedInput
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Popup_AssistedInput
+ identifier : 0x26f3be170330f513
+ internal_properties : CAAAAAgAAADIK7inYACpB/3XkROZ7D6frp0afCiY7RcWM+jas7HRfm5+9jaRGtrArE1VllyWVjLO0WclRX2DWWsybvpS/vBE6Id7a4r6PLyBQg+iGWjuqvAP4SboPpkKR0YOf7AE38imAeYX1SLY+AhTbqEFHRM7nR1jjtkyPwHVoYWGnNc7dE1qhcWlse9HtGpOZjyB1zf8PNu8FyoQJLQ9qDpknEO4oiralG9OUZp1HfqeSrdAhBpyaCUF3939M/6zQYS/9etsFdiFj/IlrfVm9zxj/dnAQk48GAgZWwMljVjCHdysQZmozYBS62Y0kc6ksJRwMvfTHS3ns1BEQ0wTAeHfj7x5KWXaQ8cg9WBxY4Ha5xdiApYBhI/n3nHpS25ndGD9A7yNNLXHMg429QAFO0LHCmCD2cyNxYyemMqRNpXPJPSY6C+QTQnn5HsxtPYMlflvbI5/PVNG2V97BVgV3E7k/IjRMNVzjcrCJ+t82H9N7mA5057bGcqumWlGAi020rNB4wGn5D6OThAwEJDTFVwVkFueORVoAhD0wx/tTam5D/H3NTFYPiBuu8HZlYLMvpFtS7WAITP9eypkMQ1bcd9OrO998IoGQQnh/Oj8HCDjWWHyAT2SqcqH33LT+IVWbMIv0xARr1976y0yo5qwKgbJfBTHWK0jhUApDF9ma9oTyx7P7iX63d14FClJlVmb4QwDVVv5x5lsdddNoIJsj+j+yQcqah47JT3JMRI8N3WjLAI3cC0qJ7c3iZdjFrHrdl0tN24m/9G7YYqbko/R/EnEaKCI3D5kZOlUh7x+4OH5DrZ71u5yD/zusBOwGE34Fjf46BS52BejwVNrkV0b/5lpAmRcjSma7bNFRCHWdY1e90aSrE+6vg1Gy8M0LTqJJH0xAw0lzLiFJmrOSObIZBrCyP991CzFxMehOz4=
+ properties :
+  width : 241
+  height : 107
+ controls :
+  -
+    name : LIST_ASSISTED
+    identifier : 0x26f3be170331f513
+    internal_properties : CAAAAAgAAACD2hutQPgqn8gR73fswm9vsGjR5jjQxSzHRAi9G5eRAzkc55n7nOxh3FqQ7Yse+6DzbtUJAWVTPUgcFPxXxNqPWB3/DyNGTVhE5Xej87FALhmdf34aWn+iwP8cqzVwcJ+0C4YMktMTRGMMWbxC34GLkpY7PpL4eTBtZZWOBf3C7CGZm/6GSPjxjcRAzVSzdLnGQ+Zck/sGHfFRrm50hAWMG0OYmXr6egCmWXxr65vYDg/8JpoLtqrWF01pxVMM0SmbvxNJKHcwSXNYh09zxKVgjik65J9fLU+7EW9eklJLKzmuOUP2TzeIzlToRowtV0QXkPoGYVzei+thAURY1EVO7JmYOekmhAoNybvog5SLIbA31Qm+u+H2cnExr37fR1cF6J6AVFI/F7A2qZwX/WAUlx/lXOACGBpPzaEvtFdCP5p25QELgk0mH8uUrsDtJiqm27E+g22hUAKFD5sZDUHjf2Aj6pQHpdiGSceCXn6uUFtqf7fmYzoAjga9yzJiMSEnMYTyLUVoGjGm4P6qnUhRnLJEj+kDweuKjJt0XPq9ubupeHLgbjWM3GE2c9Y38Mnmg7tzUqfrNytj4C6QTl/wlZ9Pb2PjlwGtXSQmMA+yZPF/U0dJwzYMkBvRyM27MKzrPTOWniKq1vjuP1XeJlFWzM9m8SwfDWoq9ybS0lEEC1KkSu+dK2r+RGWL3zJXOfENwoa7ZDWj8GZLYGRNtK+0HNuP6/Rj1wzybe5jNR4OnR243MVVgX5SZoy4RZWqRSFiLM3TBwfHsQoQ6P9FQVpYgwnFihKzTlb42P/LM9RyXot7UcoOJR4wdOaK2G2G5PLbBEI1e2gST6a0OejdhB3JqVjAnXwNtZ9jYm0mB0vJUt3YNSKkUsGrEe29bsZAyQ3du6odWF5hNMER0/S+OSc39AlrynXw1I1Jh0Yqe2iYJCQ292FmN7w8nxr7dblDSQiXS3AcFAgWu5aoIo9rC71Jm3r0nVjVrEJL5w==
+    properties :
+     width : 241
+     height : 107
+    type : 7
+    code_elements :
+     type_code : 7
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAACcW0DU6+lGqMdm+wZuMwRbr7jdsdAhXG6lO/fLqVt+Q5uocL0hGTfXkhKTqXEe98jz6JN7jz8DgqGWNF9JSpF1lmHE0TxgIT6f93RKb3ovR6zLjreHd+s5+YMhgH5ZDHMo762xUB/Q54xljQ==
+        code : |1-
+         IF ListSelect(LIST_ASSISTED) > 0 THEN
+         	// Modifies the provider (if the current input contains "@"
+         	IF gsInput [~] "@" THEN
+         		// Retrieves the text until the @ character then add the selected proposal
+         		{gsControl, indControl} = {gsControl, indControl}[[ TO Position({gsControl, indControl},"@")]] + LIST_ASSISTED[LIST_ASSISTED]
+         	ELSE
+         		// The proposal is a full proposal, assign it directly
+         		{gsControl, indControl} = LIST_ASSISTED[LIST_ASSISTED]
+         	END
+         	{gsControl, indControl}..Cursor = Length({gsControl, indControl})+1
+         END
+         Close()
+        type : 33
+      -
+        internal_properties : CAAAAAgAAABqFRbwXb4t6McGO2auE8SbT/gdcfBBPC6lmzfrqXv+A7vosH3BORcXUvLTSTE+N8jT6JO7L89zcnHm5I85euElxjF0gcywkS6vB2R63+q/t9ybPmeXxxtpydPR8G5JXKOYP13hadOAidoz2w==
+        code : |1-
+         // Timer used to automatically close the popup for assisted input
+         EndTimer(5000)
+         Timer(AutoClosing,300,5000)
+        type : 66048
+  -
+    name : BTN_Bottom
+    identifier : 0x26f3be170332f513
+    internal_properties : CAAAAAgAAABeircPscsiobgdbC1nFFRJ5ZoUcMxouUMPrVaORzZSvvKxGk6DspwNsQK+8h8Xm13C0OBaiwXTin4Kk4XpnaktFQemc8+opI4V1ArSvBK/6qQ0x2h/rLKNjMuQpsTojg22/PyHIntjnyX56IOglciups0esxcpFFtUzc/US0+zhBkvF0oAZBtzkHXwPBqNPkW0SS2Nku5cNJmeuU5oqTATzSl0iWKVDv1Cy+4SnUX5HTYz0/TXcfb3BkcRPrpN9EMEYV1BkvZzQKO2rMmnUjzpK/PA0CX9+1TmOBpSYKZm1B3IoS4zvlBLT0IpMqAqEiPHiB0O4iskdpo93qaWXLfyaJRypc2G6o4RixcK35UcDU7A8MEo+gUFc5lEigCBM5IDn4JrJaC/GlE+9fa3DqwqNeKiVRwkmMNGy02k9QY0oDsGyidSGzrmGW2JjGV5g7F7pAaivU1PmosYGf9L3gGceGk2nhv0b6K7PFrUEoSTPqO5HNOkGevGksrwtUhbK9YH67tJqN9wzh2FXDeajUJ3E3ob+AEYbupguJz2c+GJiEKvKpOEJVolyM/a20girJoKxAOdN63awwRvsu0+KCQF9P7N5Um/Smspi8pdS5L5WycrWgX/uDWji6dEbVpPwwQ4pSyNkhcUb+hPNMvyiY/L321MfN1aCjLqfSxq98r/RheEydr5WfZfbP/64iMrGDOVXmmndiRhRlOPwOdpnatS0XIJ4wEptLl59LN8irhOfzBc0xFuiFkSKystirFK5yzcvOEM9nLGxD/O5X5328EceKWv2peWqQeN06ZuvM7WY7N5uEvqhBPn3JBV8Vc4FieZm9CKyyp97uvifcoXHkADQ1MvCs1Q6MIHjnHRVWDT7HHf3gjNRctdPzUBY7KW9MJLxQOnDZoMB9VZLDQKS6E=
+    properties :
+     x : 270
+     y : 10
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // If the selection can be modified
+         IF 0 < LIST_ASSISTED < LIST_ASSISTED..Occurrence THEN
+         	// Selects the line below
+         	ListSelectPlus(LIST_ASSISTED,ListSelect(LIST_ASSISTED)+1)
+         END
+         
+         EndTimer(5000)
+         Timer(AutoClosing, 500, 5000)		
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Top
+    identifier : 0x26f3be170333f513
+    internal_properties : CAAAAAgAAABKZibzmWWWDSdT0DClRTMfmQfjravcE8KrvKka4qwcwDWSCRDJo/9n7WLa2ZjB3xZI7EqMHoThde0v1UNHt0fZ/66NnB+8M+79TbGBzlcXcP+MB2N1giJ7MjnGNgGISZwOO/xaVZ0gbB0+ibzbiWRq5R61ncPNzKcO1tzoQuu/bJSsdUes4kt7CBEphgZ38UDRjTPglgl1myMDO2jKAlIFzHFcoj2QVi4EEtShhJMS1AIKNYrOtE3n+Qv4irscmCh4XmnLzMpWASDCO5CZn+nK8XyWPfJu75veItmgkMGD/eW9sTtrJDBB6gTlgzunv80d0Y4KqWuy/sJks6C7qANzDBCrfZacb4uy8plS8Obwpvk39NpWfuevgjiWbybfHq2z4ngiLaZzVmhH9juu+vQBC33wQ4CGt3nSIN4w0E2AaRbKCekDja3Mtse7/UiEll+MR4U26d+KpvkfjqbXpFbuhAj1tTy8mYXGL18ctEaj2S2o+E5L3Qx6xW54HbRcwfkTdzW4s79MHl3EK9okHwREERSTl36v3CB9RLyaohYM3CXyVAuJu4hsP/wJqwtG+7xiH5MESCwF1KVcjGt6dRcDTwndxPRsNqZ4ONLq3cBF2ERC2DNQ2j7UXd0d4jH+K436digbXJPOfjtDl4Miwq1KVoigrCDJBHueYNbk6wQuRoXmf5PyUk5eZCz3rowiFvc8M9EglTDslRCOPxoKjeLqJvR4NMpfQbVd9+ADS5+MNztgUXemjm5K78tkVxd2owaW1iWgquYe2P6JOeo9B4oQQjfRdqbB5LX/9BgwcVT18TdlT5tT7elXfef2FRAl+qruTDLJt54yDWzajqGSmbysgH1rWhKFviwT9LxuTGjw/KIMLQZJFXfl7H28WrDMkd8dA0/mCWX8+ttjqw==
+    properties :
+     x : 269
+     y : 37
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // If the selection can be modified
+         IF LIST_ASSISTED > 2 THEN
+         	//Selects the above line
+         	ListSelectPlus(LIST_ASSISTED,ListSelect(LIST_ASSISTED)-1)
+         END
+         
+         EndTimer(5000)
+         Timer(AutoClosing, 500, 5000)		
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Enter
+    identifier : 0x26f3be170334f513
+    internal_properties : CAAAAAgAAABVd64UKMFwIyDVX1oLsbLnS0gCZpo4iZb31XppluhHee0zf3Oer7C+UosoFFuU5ZuCgjjoU/P2hHiqC+M3boUoJoLgBArXaV7qoeBHu13JBUQ8VG7CGYNELbCDdBUPbMBRQ+iQM8aoOxysnicwM7/LyTjfEii5xMGN1UVdDVz+7C+qd9Bqsps28JEf+UJq3mJBuZ4iaTogefTGk0F3xjzEGSf+og0jPQcWTLTCF6ko64WnUKNXyKSctmvArVZnz570YEBHGvo3NYEb2obaqf8pVXeZcfUO5BDpah2ZcHNFiCDWosN0mgPcf3Cs1xy8UyywGHEY+Z58WCuZXs6+dcaFgQOa/Ya5nOIGH00Iylj8fcbMZmnwGm1AIdEkKmACTtl1HaW5s8IhqpL21NHCXMjidPolxi6S1TUvLCdJ0ZRIWcx9JBZtONkm2EboFZFp9dH1T1YkqEbv7plIu5AvDEMqcGk0OD6STsOQIB42UYGQfVPb5sTH6zqj/fMQG5dcqWB9jizu+TSb9manGqHFRwXcQPHRz0Of5mQ173ydzRIj4pgq6pg44O/zMIYEH0o8ImhAPgHPnec/JPXR91DPz6ooZka9BmNNAs4P1e/HisurxJaeHCQB0ot9QJ0Y/2bmLjUAXKpYu/QRA33srrsuU+cWUcKmLBEV4HzBEUG4AgNsKcwmXR/MZh5D4M/a1AH9eEaIF5r4SVLB3IT56yMA8X3r/szg6cbxOmX2onNBmJyzj0u/FWDzuXEUacWnjh26wWjo3XpM+lQa86Rn/sznEzv0oEhyl7S5IdnrywpPORrqNYZk8wBjLrlwUrR5I/6VV+YmxMlRlr08Bcoz3iO4dYUkYnIGQ2iNw6cmmw58uMJFBAlwb2cUWF7vjUcTifCQ0vwFFGCb2NkrDCbgIz0VUJo=
+    properties :
+     x : 270
+     y : 64
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Select the current row
+         ExecuteProcess(LIST_ASSISTED,trtClick)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x249a6e5416598f02
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAD54ZHA54R4VTF4hNYQsXUAkiyKdpcsSyaEtGhNutE3kmbDs1TA64O8coUWh7zoNTDJfsVl6w1zhM/QesqH9RKWXyE+oU+wHhhxrOfmUXZFCT0NWGqf2Ang2IWn+WlM
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      // Summary: Popup for assisted input
+      // Syntax:
+      //WIN_Popup_AssistedInput (<gnWidth>, <gsControl>, <gsAddressList>, <gsInput>)
+      //
+      // Parameters:
+      //	gnWidth: Width of the popup
+      //	gsControl: Full name of the edit control with assisted input
+      //	gsAddressList: List of suggested addresses
+      //	gsInput: Current input
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE WIN_Popup_AssistedInput(gnWidth, gsControl, gsAddressList, gsInput)
+      
+      MySelf..Width = gnWidth
+      
+      // Displays the list of possibilities
+      List(gsAddressList)
+      // Selects the input in the list
+      Find(*, True)
+      
+      Timer(AutoClosing, 500, 5000)
+      Timer(CheckCursor,20,5001)
+      Event(CheckMovement, ParentObject(gsControl), WM_MOVE)
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+   -
+     code : |1-
+      
+     type : 66049
+  procedures :
+   -
+     name : Find
+     procedure_id : 1653874494185600275
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //Find ([<_Input>[, <bStart>]])
+      //
+      // Parameters:
+      //	_Input: <specify the role of _Input>
+      // 	bStart: <specify the role of bStart>
+      // Return value:
+      // 	None
+      
+      PROCEDURE Find(_Input=gsInput, bStart=False)
+      
+      nBound	 is int = ListCount(LIST_ASSISTED)
+      bSelect	 is boolean
+      
+      ListSelectMinus(LIST_ASSISTED)
+      
+      FOR nSubscript = 1 TO nBound
+      	IF LIST_ASSISTED[nSubscript][[TO Length(_Input)]] ~= _Input THEN
+      		ListSelectPlus(LIST_ASSISTED, nSubscript)
+      		bSelect = True
+      		BREAK
+      	END
+      END
+      
+      // No selection
+      if bSelect = false then
+      	// First element
+      	ListSelectPlus(LIST_ASSISTED, 1)
+      END
+      
+      
+      EndTimer(5000)
+      Timer(AutoClosing, 500, 5000)
+      
+      
+      IF NOT bSelect AND NOT bStart THEN Close()
+     type : 458752
+   -
+     name : List
+     procedure_id : 1653874494185665811
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //List (<sList>)
+      //
+      // Parameters:
+      // 	sList: <specify the role of sList>
+      // Return value:
+      // 	None
+      
+      PROCEDURE List(sList)
+      
+      ListDeleteAll(LIST_ASSISTED)
+      ListAdd(LIST_ASSISTED, sList)
+      
+      EndTimer(5000)
+      
+      Timer(AutoClosing, 500, 5000)
+      
+      
+      // Calculates the necessary height to avoid space characters in the list
+      nbItems is int = ListCount(LIST_ASSISTED)
+      ntTop  is int = nbItems * 15 + 2
+      
+      // Adapts the height
+      IF ntTop > 197 THEN ntTop = 197
+      IF ntTop < 17  THEN ntTop = 17
+      
+      // Modifies the height
+      WIN_Popup_AssistedInput..Height = ntTop
+     type : 458752
+   -
+     name : AutoClosing
+     procedure_id : 1653874494185731347
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //AutoClosing ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE AutoClosing()
+      
+      // Closes the window
+      Close()
+     type : 458752
+   -
+     name : CheckCursor
+     procedure_id : 1653874494185796883
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //CheckCursor ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      PROCEDURE CheckCursor()
+      	
+      	IF ControlCurrent() <> gsControl AND ControlCurrent() <> LIST_ASSISTED..Name THEN	
+      		// The cursor is no longer found in the proper edit control
+      		Close()
+      	END
+      	
+      	IF ControlCurrent() = LIST_ASSISTED..Name THEN
+      		EndTimer(5000)
+      		Timer(AutoClosing, 500, 5000)		
+      	END
+     type : 458752
+   -
+     name : CheckMovement
+     internal_properties : CAAAAAgAAACqBfZA0LbWQVREO9FmuBPaPcL2gt4V6fZmeIgZcbaKn1C1G4JJoAQhzpbSyPZUAWom3t77VmS5E9YymRaUgoSlhY7wvOCkG2akzM7R+RYVRuvQsG7iV0TToQ5ZgVyZeRyIT2A0Cfqm0cVIQ2yddYhpTsRK59GqjaJFiindsnpimxfZgSNAk9pHPZKkhDlFkMRGBBfWSUI=
+     procedure_id : 1653874494185862419
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //CheckMovement ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE CheckMovement()
+      	
+      // If the window containing the email control with assisted input is moved, closes the popup (to avoid the shifted popup effect)
+      Close(MyWindow)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : PopSaisieAssistée
+resources :
+ string_res :
+  identifier : 0x100aac2d001bf2f1
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

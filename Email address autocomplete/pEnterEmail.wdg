@@ -1,0 +1,453 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pEnterEmail
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x16f3be18011cfa34
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAMXdm27VlbVNFyfwCQGcbNqrow1tWyyEdsozj7UCn705VkZMJm9Usc7qXNUjjg2/98Cb+FvFTe5OHaU6toBesCkMOISuvg
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      
+      gsErrorInfo is string
+      
+      STRECT is Structure
+      	nPosLeft, nPosTop, nPosRight, nPosBottom are int
+      END
+     type : 720896
+  procedures :
+   -
+     name : EmailAssistedInput
+     internal_properties : CAAAAAgAAADCNTejtQtdXKu9hrVSdhBel6alAhnub+K19vlLwe5BaMHpcKNQlzm/ib4CwushNMluwzgeKrmr6Ve2EwP7nnEPhz+mSF+rDUfxYew7SB0F37RPP1ajgq7RiwEnK4qkra7Hjb6WYp7WJD3OCTxn0gJkuF69z1TkgGIVaCHIjr4xlmf+kaYrLZd+h5+3PG6A7qqWZ1dGQb7Sd3bkTRsVzqdT0xw4nQv4BAuRQHu4myk0FDq0qfyBg2BkHszuxjjEdjXlchDZSIa7nz3vhxf2h8YIXhbCJ/CA/He+ymIyg3o6y9EZyQPHSKd4y1TI5xzOHQUk/03jVymg3zeB73pZIv4jQU1SMhYAvv+Ske3jqJeCFnheSu6oiMIzBdoUiaUtsZsQEaurdg5fTvD7R0zEXH/XRg==
+     procedure_id : 1653874498482338356
+     type_code : 15
+     code : |1+
+      // Summary: helps the user to enter his email
+      // Syntax:
+      //EmailAssistedInput (<sControlName> is string, <sFirstName> is string, <sLastName> is string [, <sCompany> is string [, <sCountry> is string [, <bDisplayPossibilities> is boolean]]])
+      //
+      // Parameters:
+      //	sControlName (ANSI string): Full name of the edit control on which the assisted input must be performed. The name of the window containing the edit control must be specified.
+      //	sFirstName (ANSI string): First name of the person for whom an email is entered.
+      //	sLastName (ANSI string): Last name of the person for whom an email is entered.
+      //	sCompany (ANSI string - default value=""): Company where the person for whom an email is entered works.
+      //	sCountry (ANSI string - default value=""): Country where the person for whom an email is entered lives
+      //	bDisplayPossibilities (boolean - default value=1): True (by default) to enable the interactive display of a list containing the possibilities of input, False otherwise.
+      // Return value:
+      // 	None
+      
+      PROCEDURE EmailAssistedInput(LOCAL sControlName is string, LOCAL sFirstName is string, LOCAL sName is string, LOCAL sCompany is string = "", LOCAL sCountry is string = "", LOCAL bDisplayPossibilities is boolean = True)
+      
+      WHEN EXCEPTION
+      	ExceptionEnable()
+      	gsErrorInfo = ExceptionInfo()
+      	{sControlName, indControl}..Cursor = {sControlName, indControl}..Cursor
+      	RETURN
+      END
+      
+      // Exit if the assisted input is not enabled for the control
+      IF ArraySeek(pInternal.garrAssistedInput, asLinear, <§@11f7a9ef0009cc610000§>, sControlName) = -1 THEN 
+      	Trace(StringBuild(<§@11f7a9ef0009cc610001§>, sControlName))
+      	RETURN
+      END
+      
+      nPos is int
+      nCursor is int
+      sText is string
+      sEdit is string
+      nControlSize is int
+      nTextSize is int
+      sTextNext is string
+      nSizeNext is int
+      sProvider is string
+      sExtension is string
+      sTextEntered is string	
+      sListPossibilities is string
+      arrListPossibilities is array of string
+      nWidth is int
+      nPosX, nPosY are int
+      bNoAction is boolean
+      
+      // Checks the existence of the control
+      IF ControlExist(sControlName) = False THEN		
+      	Trace(StringBuild(<§@11f7a9ef0009cc610002§>, sControlName))
+      	RETURN
+      END
+      
+      // Reset the errors
+      gsErrorInfo = ""
+      
+      // Retrieves the cursor position
+      nCursor = {sControlName, indControl}..Cursor	
+      // Retrieves the text entered up to the cursor position
+      sText = {sControlName, indControl}[[TO nCursor - 1]]
+      
+      // Retrieves the total size of the text in the control
+      nControlSize = Length({sControlName, indControl})
+      
+      // Retrieves the size of the text up to the cursor
+      nTextSize = Length(sText)	
+      
+      // Retrieves the text already entered
+      sTextEntered = {sControlName, indControl}[[TO nCursor]]
+      
+      // Transforms the data passed in parameter in order for this data to be consistent with the emails (delete the space and accented characters, use lowercase characters, ...)
+      sName = StringFormat(Replace(sName, " ", ""), ccIgnoreAccent+ccIgnoreSpace+ccIgnorePunctuationAndSpace+ccLowCase)
+      sFirstName = StringFormat(Replace(sFirstName, " ", ""), ccIgnoreAccent+ccIgnoreSpace+ccIgnorePunctuationAndSpace+ccLowCase)
+      sCompany = StringFormat(Replace(sCompany, " ", ""), ccIgnoreAccent+ccIgnoreSpace+ccIgnorePunctuationAndSpace+ccLowCase)
+      sCountry = StringFormat(sCountry, ccIgnoreAccent+ccIgnoreSpace+ccLowCase)
+      
+      
+      // No action if DEL or BACKSPACE was pressed by the user
+      IF KeyPressed(VK_BACK) OR KeyPressed(VK_DELETE) THEN
+      	bNoAction = True
+      END
+      
+      //
+      // Predictions
+      //
+      SWITCH True
+      
+      	// If the last character found in the text is "."
+      	CASE sText[[nTextSize]] IN (".", "-", "_") AND Position(sText, "@") = 0
+      		
+      		// If the cursor is located at the end of the control
+      		IF nCursor = nControlSize + 1 THEN
+      			SWITCH True
+      				// If the text entered corresponds to the first name or to the beginning of first name
+      				CASE sText[[TO nTextSize - 1]] ~= sFirstName, ...
+      					sText[[TO nTextSize - 1]] ~= sFirstName[[TO nTextSize - 1]]
+      					
+      					// Propose the name in assisted input
+      					sEdit = sName
+      					IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      					
+      				// If the text entered corresponds to the name or to the beginning of the name
+      				CASE sText[[TO nTextSize - 1]] ~= sName, ...
+      					sText[[TO nTextSize - 1]] ~= sName[[TO nTextSize - 1]]
+      					
+      					// Propose the first name in assisted input
+      					sEdit = sFirstName						
+      					IF bNoAction = False THEN{sControlName, indControl} = sTextEntered + sEdit
+      			END
+      		END
+      		
+      	// If there is a ".", "-" or "_" and if there is no "@"
+      	CASE (Position(sText, ".") OR Position(sText, "-") OR Position(sText, "_")) AND Position(sText, "@") = 0
+      		
+      		// retrieve the position of ".", "-" or "_"
+      		nPos = Position(sText, ".")
+      		IF nPos = 0 THEN
+      			nPos = Position(sText, "-")	
+      			IF nPos = 0 THEN
+      				nPos = Position(sText, "_")	
+      			END	
+      		END
+      		
+      		// No separator: exit
+      		IF nPos = 0 THEN BREAK SWITCH
+      		
+      		sTextNext = sText[[nPos + 1 TO]]
+      		nSizeNext = Length(sTextNext)
+      		
+      		// Generates an assisted input for the name or the first name
+      		SWITCH True
+      			// If the text entered before the ".", "-" or "_" character corresponds to the name
+      			CASE sText[[TO nPos -1]] ~= sName, ...
+      				sText[[TO nPos -1]] ~= sName[[TO nPos -1]]
+      				
+      				// and if the text entered after the ".","-" or "_" character corresponds to the first name
+      				IF sTextNext ~= sFirstName[[TO nSizeNext]] THEN						
+      					// propose the rest of the first name in assisted input
+      					sEdit = sFirstName[[nSizeNext + 1 TO]]
+      					IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      				END
+      				
+      			// If the text entered before the ".", "-" or "_" character corresponds to the name					
+      			CASE sText[[TO nPos -1]] ~= sFirstName, ...
+      				sText[[TO nPos -1]] ~= sFirstName[[TO nPos -1]]
+      				
+      				// and if the text entered after the ".","-" or "_" character corresponds to the name
+      				IF sTextNext ~= sName[[TO nSizeNext]] THEN
+      					// propose the rest of the name in assisted input
+      					sEdit = sName[[nSizeNext + 1 TO]]
+      					IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      				END					
+      		END
+      		
+      	// If the last character found in the text is "@"
+      	CASE sText[[nTextSize]] = "@"
+      		
+      		// If the cursor is located at the end of the control
+      		IF nCursor = nControlSize + 1 THEN
+      			IF sCompany <> "" THEN
+      				// propose the company in assisted input
+      				sExtension = "fr"
+      				CorrespondenceDomainCountry(sCountry, sExtension)					
+      				sEdit = sCompany + "." + sExtension
+      				IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      			END
+      		END
+      		
+      	// If a "@" character is found and if the cursor is located after the "@"
+      	CASE Position(sText, "@") AND nCursor >= Position(sText, "@")
+      		
+      		// retrieves the position of "@"
+      		nPos = Position(sText, "@")
+      		
+      		sTextNext = sText[[nPos + 1 TO]]
+      		nSizeNext = Length(sTextNext)
+      		
+      		// if the cursor is located after the "." and the "@"
+      		IF Position(sText, ".", nPos) _AND_ nCursor > Position(sText, ".", nPos) THEN
+      			
+      			// retrieves the position of "."
+      			nPos = Position(sText, ".", nPos)
+      			
+      			IF sCountry = "" THEN
+      				
+      				// generates an assisted input for the domain extension
+      				IF DomainCorrespondence(sTextNext, sExtension)
+      					// propose the rest of the extension in assisted input
+      					sEdit = sExtension[[nSizeNext + 1 TO]]
+      					IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      					
+      				END
+      				
+      			ELSE
+      				
+      				// generates an assisted input on the domain extension in relation to the country
+      				IF CorrespondenceDomainCountry(sCountry, sExtension) THEN
+      					
+      					// propose the rest of the extension in assisted input
+      					sEdit = sExtension[[nSizeNext + 1 TO]]
+      					IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit					
+      					
+      				END
+      				
+      			END
+      			
+      		ELSE
+      			// generates an assisted input for a provider or the company
+      			SWITCH True
+      				// if the text entered after the "@" character corresponds to the name of the company
+      				CASE sTextNext ~= sCompany[[TO nSizeNext]]					
+      					// propose the rest of the company in assisted input
+      					sExtension = "fr"
+      					CorrespondenceDomainCountry(sCountry, sExtension)
+      					
+      					sEdit = sCompany[[nSizeNext + 1 TO]] + "." + sExtension
+      					IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      					
+      				// if the text entered after the "@" character corresponds to a known provider
+      				CASE ProviderCorrespondence(sTextNext,sProvider)
+      					// propose the rest of the provider in assisted input
+      					sEdit = sProvider[[nSizeNext + 1 TO]]
+      					IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      			END				
+      		END		
+      		
+      	OTHER CASE
+      		
+      		// If at least two characters have been entered
+      		IF nControlSize >= 2 THEN
+      			// If the beginning of the input corresponds to the beginning of the first name
+      			IF sText[[TO nTextSize - 1]] ~= sFirstName[[TO nTextSize - 1]]
+      				// Proposes the first name in assisted input
+      				sEdit = sFirstName[[nTextSize + 1 TO]]
+      				IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      			ELSE
+      				
+      				// If the beginning of the input corresponds to the beginning of the name
+      				IF sText[[TO nTextSize - 1]] ~= sName[[TO nTextSize - 1]]
+      					// Proposes the name in assisted input
+      					sEdit = sName[[nTextSize + 1 TO]]
+      					IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      				ELSE
+      					
+      					// If the beginning of the input corresponds to the beginning of the company
+      					IF sText[[TO nTextSize - 1]] ~= sCompany[[TO nTextSize - 1]]
+      						// Proposes the company in assisted input
+      						sExtension = "fr"
+      						CorrespondenceDomainCountry(sCountry, sExtension)
+      						
+      						sEdit = sCompany[[nTextSize + 1 TO]] + "." + sExtension
+      						IF bNoAction = False THEN {sControlName, indControl} = sTextEntered + sEdit
+      					END
+      					
+      				END
+      				
+      			END
+      		END
+      		
+      END	
+      
+      IF bDisplayPossibilities THEN
+      	
+      	// Manages a list of possibilities for the email address
+      	arrListPossibilities = GeneratePossibilities(sTextEntered, sTextEntered + sEdit, sName, sFirstName, sCompany, sCountry)
+      	
+      	SI arrListPossibilities..Occurrence > 0 ALORS
+      		
+      		sListPossibilities = ArrayToString(arrListPossibilities, CR)
+      		
+      		IF WinStatus(WIN_Popup_AssistedInput) <> NotFound THEN
+      			
+      			// Refreshes the list of possibilities in the popup
+      			WIN_Popup_AssistedInput.List(sListPossibilities)
+      			WIN_Popup_AssistedInput.Find(sTextEntered)
+      			
+      		ELSE
+      			
+      			// Retrieves the width of the input area found in the edit control
+      			stInputRECT is STRECT			
+      			SendMessage(Handle(sControlName), 0x00B2, 0, &stInputRECT)	// 0x00B2 = EM_GETRECT: retrieves the dimensions of the input area found in an edit control
+      			nWidth = stInputRECT:nPosRight - stInputRECT:nPosLeft
+      			
+      			// Calculates the position of the popup according to the input area of the edit control
+      			nPosX = WinInXPos() + ({sControlName, indControl}..Width - nWidth) + {sControlName, indControl}..X - 3
+      			nPosY = WinInYPos() + {sControlName, indControl}..Height + {sControlName, indControl}..Y - 3
+      			
+      			// Opens the popup
+      			OpenChild("WIN_Popup_AssistedInput," + nPosY + "," + nPosX + NoFocus+Above, (nWidth + 3), sControlName, sListPossibilities, sTextEntered)
+      					
+      		END
+      		
+      	END
+      	
+      END
+      
+      // Restores the cursor and selects the text of the assisted input
+      IF bNoAction = False THEN
+      	
+      	nControlSize = Length({sControlName, indControl})			
+      	IF nCursor > nControlSize THEN 
+      		nCursor = nControlSize
+      	END			
+      	
+      	IF sEdit <> "" THEN
+      		{sControlName, indControl}..Cursor = nCursor
+      		{sControlName, indControl}..CursorEnd = nControlSize + 1		
+      	ELSE
+      		{sControlName, indControl}..Cursor = nCursor + 1
+      	END
+      END
+      
+      RETURN
+      
+     type : 458752
+   -
+     name : EmailAssistedInputEnabled
+     internal_properties : CAAAAAgAAADoQF0ROd9reTo1khCd9umCx1ol26s55L083CA0P6/m366mll4t3jwQ1qQ1wrJvY8lgse8KpbkZfLOmkqR8PmL0x/OIdaSN+QXE05W5V793T4C7zEhE/+D/nwxnrxTdWTx2vVbGS35OCRkEbyBhg4ApVBKYIf9wV+zhHk3FomoGf1qUxiaXREkk0r+hV0o2D1NzECHEfwsFLSDPdUkukd2z+RK6Fg6L
+     procedure_id : 1653874498482403892
+     type_code : 15
+     code : |1-
+      // Summary: Enables (or not) the assisted input for a control
+      // Syntax:
+      //EmailAssistedInputEnabled (<sControlName>[, <bEnabled>])
+      //
+      // Parameters:
+      //	sControlName: Full name of the edit control where the assisted input will be performed. The name of the window containing the edit control must be specified.
+      //	bEnabled (default value=1): True (by default) to enable the assisted email input, False otherwise.
+      // Return value:
+      // 	None
+      
+      PROCEDURE EmailAssistedInputEnabled(sControlName, bEnabled = True)
+      
+      IF sControlName ~= "" _OR_ ControlExist(sControlName) = False THEN
+      	Trace(StringBuild(<§@11f7a9ef0009cc610002§>, sControlName))
+      	RETURN
+      END
+      
+      // Searches for the control
+      n is int = ArraySeek(pInternal.garrAssistedInput, asLinear, <§@11f7a9ef0009cc610000§>, sControlName)
+      
+      stAnASSISTEDINPUT is STASSISTEDINPUT
+      
+      IF bEnabled THEN
+      	
+      	// Add the control if it was not found
+      	IF n = -1 THEN 
+      		stAnASSISTEDINPUT:sControlName = sControlName		
+      		stAnASSISTEDINPUT:nEventID = Event(pInternal.ESA_CHAR, ExtractString(sControlName, 2, "."), WM_KEYDOWN)		
+      		{sControlName, indControl}..InputMask = maskLower
+      		ArrayAdd(pInternal.garrAssistedInput, stAnASSISTEDINPUT)
+      	END
+      	
+      ELSE
+      	
+      	// Delete the control if it was found
+      	IF n <> -1 THEN 
+      		EndEvent(pInternal.garrAssistedInput[n]:nEventID)
+      		ArrayDelete(pInternal.garrAssistedInput, n)
+      	END
+      	
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : pSaisieEmail
+resources :
+ string_res :
+  identifier : 0x11f7a9ef0009cc61
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : sControlName
+     index : 0
+   -
+     text :
+      en-GB : The assisted input is not available for the <%1> control.
+     index : 1
+   -
+     text :
+      en-GB : The <%1> control is unknown or inaccessible.
+     index : 2
+   -
+     text :
+      en-GB : " "
+     index : 3
+   -
+     text :
+      en-GB : "."
+     index : 4
+   -
+     text :
+      en-GB : "-"
+     index : 5
+   -
+     text :
+      en-GB : _
+     index : 6
+   -
+     text :
+      en-GB : "@"
+     index : 7
+   -
+     text :
+      en-GB : fr
+     index : 8
+   -
+     text :
+      en-GB : "Popup_AssistedInput, "
+     index : 9
+   -
+     text :
+      en-GB : ","
+     index : 10
+   -
+     text : {}
+     index : 11
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

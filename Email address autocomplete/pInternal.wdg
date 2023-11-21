@@ -1,0 +1,2701 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pInternal
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x16f3be17010df65b
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : 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
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACx++9zJuXNSFaHAL5rVu4UHTT3bHjF6dqsC+6QJgYoRqfG1d2xuiPmvk/8jPg0RpnqQNmkGVi59+yvioLGNHKoCYtb8u+T2ZHVyscwV8Lk3j/QsdMYplpsdLPf+jn58Lg+OXMqOwkZNwjyzFg/qDJhsVUA1mc1iATWbxsrB+LqiufQsmsYKe/fVf31jXuuMA30HFQ+6tZ9XUq4uC90cjHQYpVm+zcOauWItvSKIobRJfDI+15oZil6VXYYD+QLO4Ye6Dobc0Mq0qSu4mSS7CDp1mNsszDlrvs3ddvlAHgN5NDkcqnUGVBKgrOUp5qfFhHtrPAn7oWSWJkzxxqhXoj2I4Xr6/IOCsqDNllROVl6K5bPoFE7kxcjv7+lQHFjauDBHbprkFklGV53+5HfyHJ9R0OJDoIbcFwj43imZiMw051ycCPArDTDxXaGH//fCV7PfG5GNZnt1+giiKth1DlTT+cuQGKJi01y0gJcRhZAubSUnhRlswSJWkWgc6pmJEWDvEfbgMQzu70ZK5YUHzrkGqGgnSYjyYeqXlBOisFj+i/gtm8I9pSqKAa4n8Oyn3OHSjUef4t6x6orhGvukUyKQIzi2CWvFFY7EHTa1Wya3HLF4/E2Yw77rdfOXzYKgGs4ngsqC5bhYfQZC8r7PRtxsMFuOV+4lUMXEKybRDoyQVnwczHwS9dQldNFqb8ZRmmB1Xe04PD9C4m0l6WSNjjtXi5Ue6Y8zY1EdWyHiuqkj1wd/Koi1tueaZEqXQa0ekFGwPlGePzvhuvqJBy9qYyjmywAio4Y9QbIep5tp8IJqoYowZ9P508XlOGD0G5skZ+1uDg5mdF9rAi9WCCrr3jyXNIIrPNmb+Z1QFwwSWlXj+Nry+7LVU0zPtTnSrmPTD/pAQz/FAAeDr8jgISIN+K2Kfe3+ZYO0ZVwNfXoIW8aHjHKqmWJTT35oCliR34xSIZSgsTZx1qYkpVVf0egHtrVt5MuCK1yVY5kWtoOx2b15dG+sg==
+     code : |1+
+      // Windows constants 
+      EXTERN "keyconst.wl"
+      EXTERN "winconst.wl"
+      
+      STASSISTEDINPUT is Structure
+      	sControlName is string
+      	nEventID is int
+      END
+      
+      
+      garrAssistedInput is array of 0 STASSISTEDINPUT // Table of controls for assisted input
+      garrDomainExtensions is array of 0 strings // Table of domain extensions
+      garrProviders is array of 0 strings // Table of providers
+      
+      // Create the list of known providers
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70000§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70001§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70002§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70003§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70004§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70005§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70006§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70007§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70008§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70009§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd7000a§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd7000b§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd7000c§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd7000d§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd7000e§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd7000f§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70010§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70011§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70012§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70013§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70014§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70015§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70016§>)
+      ArrayAdd(garrProviders, <§@11f7adea00115bd70136§>)
+      
+      // Create the list of known domain extensions
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70017§> + TAB + <§@11f7adea00115bd70137§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70018§> + TAB + <§@11f7adea00115bd70138§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70019§> + TAB + <§@11f7adea00115bd7001a§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7001b§> + TAB + <§@11f7adea00115bd70139§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7001c§> + TAB + <§@11f7adea00115bd7001d§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7001e§> + TAB + <§@11f7adea00115bd7013a§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7001f§> + TAB + <§@11f7adea00115bd7013b§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70020§> + TAB + <§@11f7adea00115bd7013c§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70021§> + TAB + <§@11f7adea00115bd70022§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70023§> + TAB + <§@11f7adea00115bd7013d§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70024§> + TAB + <§@11f7adea00115bd7013e§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70025§> + TAB + <§@11f7adea00115bd7013f§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70026§> + TAB + <§@11f7adea00115bd70140§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70027§> + TAB + <§@11f7adea00115bd70141§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70028§> + TAB + <§@11f7adea00115bd70142§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70029§> + TAB + <§@11f7adea00115bd70143§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7002a§> + TAB + <§@11f7adea00115bd70144§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7002b§> + TAB + <§@11f7adea00115bd7002c§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7002d§> + TAB + <§@11f7adea00115bd70145§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7002e§> + TAB + <§@11f7adea00115bd70146§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7002f§> + TAB + <§@11f7adea00115bd70147§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70030§> + TAB + <§@11f7adea00115bd70148§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70031§> + TAB + <§@11f7adea00115bd70149§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70032§> + TAB + <§@11f7adea00115bd7014a§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70033§> + TAB + <§@11f7adea00115bd7014b§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70034§> + TAB + <§@11f7adea00115bd7014c§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70035§> + TAB + <§@11f7adea00115bd7014d§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70036§> + TAB + <§@11f7adea00115bd70037§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70038§> + TAB + <§@11f7adea00115bd7014e§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70039§> + TAB + <§@11f7adea00115bd7014f§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7003a§> + TAB + <§@11f7adea00115bd70150§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7003b§> + TAB + <§@11f7adea00115bd70151§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7003c§> + TAB + <§@11f7adea00115bd70152§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7003d§> + TAB + <§@11f7adea00115bd70153§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7003e§> + TAB + <§@11f7adea00115bd70154§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7003f§> + TAB + <§@11f7adea00115bd70155§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70040§> + TAB + <§@11f7adea00115bd70156§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70041§> + TAB + <§@11f7adea00115bd70157§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70042§> + TAB + <§@11f7adea00115bd70043§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70044§> + TAB + <§@11f7adea00115bd70045§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70046§> + TAB + <§@11f7adea00115bd70158§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70047§> + TAB + <§@11f7adea00115bd70159§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70048§> + TAB + <§@11f7adea00115bd7015a§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70049§> + TAB + <§@11f7adea00115bd7015b§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7004a§> + TAB + <§@11f7adea00115bd7015c§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7004b§> + TAB + <§@11f7adea00115bd7015d§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7004c§> + TAB + <§@11f7adea00115bd7015e§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7004d§> + TAB + <§@11f7adea00115bd7004e§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7004f§> + TAB + <§@11f7adea00115bd7015f§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70050§> + TAB + <§@11f7adea00115bd70160§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70051§> + TAB + <§@11f7adea00115bd70161§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70052§> + TAB + <§@11f7adea00115bd70162§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70053§> + TAB + <§@11f7adea00115bd70163§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70054§> + TAB + <§@11f7adea00115bd70164§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70055§> + TAB + <§@11f7adea00115bd70056§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70057§> + TAB + <§@11f7adea00115bd70165§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70058§> + TAB + <§@11f7adea00115bd70166§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70059§> + TAB + <§@11f7adea00115bd70167§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7005a§> + TAB + <§@11f7adea00115bd70168§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7005b§> + TAB + <§@11f7adea00115bd7005c§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7005d§> + TAB + <§@11f7adea00115bd70169§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7005e§> + TAB + <§@11f7adea00115bd7016a§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7005f§> + TAB + <§@11f7adea00115bd70060§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70061§> + TAB + <§@11f7adea00115bd7016b§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70062§> + TAB + <§@11f7adea00115bd7016c§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70063§> + TAB + <§@11f7adea00115bd70064§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70065§> + TAB + <§@11f7adea00115bd7016d§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70066§> + TAB + <§@11f7adea00115bd7016e§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70067§> + TAB + <§@11f7adea00115bd7016f§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70068§> + TAB + <§@11f7adea00115bd70170§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70069§> + TAB + <§@11f7adea00115bd70171§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7006a§> + TAB + <§@11f7adea00115bd7006b§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7006c§> + TAB + <§@11f7adea00115bd7006d§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7006e§> + TAB + <§@11f7adea00115bd70172§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7006f§> + TAB + <§@11f7adea00115bd70173§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70070§> + TAB + <§@11f7adea00115bd70071§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70072§> + TAB + <§@11f7adea00115bd70174§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70073§> + TAB + <§@11f7adea00115bd70175§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70073§> + TAB + <§@11f7adea00115bd70176§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70074§> + TAB + <§@11f7adea00115bd70177§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70075§> + TAB + <§@11f7adea00115bd70178§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70076§> + TAB + <§@11f7adea00115bd70179§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70077§> + TAB + <§@11f7adea00115bd7017a§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70078§> + TAB + <§@11f7adea00115bd7017b§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70079§> + TAB + <§@11f7adea00115bd7017c§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7007a§> + TAB + <§@11f7adea00115bd7017d§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7007b§> + TAB + <§@11f7adea00115bd7017e§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7007c§> + TAB + <§@11f7adea00115bd7007d§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7007e§> + TAB + <§@11f7adea00115bd7017f§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7007f§> + TAB + <§@11f7adea00115bd70080§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70081§> + TAB + <§@11f7adea00115bd70180§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70082§> + TAB + <§@11f7adea00115bd70083§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70084§> + TAB + <§@11f7adea00115bd70181§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70085§> + TAB + <§@11f7adea00115bd70182§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70086§> + TAB + <§@11f7adea00115bd70183§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70087§> + TAB + <§@11f7adea00115bd70184§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70088§> + TAB + <§@11f7adea00115bd70185§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70089§> + TAB + <§@11f7adea00115bd70186§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7008a§> + TAB + <§@11f7adea00115bd7008b§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7008c§> + TAB + <§@11f7adea00115bd70187§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7008d§> + TAB + <§@11f7adea00115bd70188§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7008e§> + TAB + <§@11f7adea00115bd70189§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7008f§> + TAB + <§@11f7adea00115bd70185§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70090§> + TAB + <§@11f7adea00115bd7018a§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70091§> + TAB + <§@11f7adea00115bd7018b§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70092§> + TAB + <§@11f7adea00115bd7018c§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70093§> + TAB + <§@11f7adea00115bd7018d§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70094§> + TAB + <§@11f7adea00115bd70095§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70096§> + TAB + <§@11f7adea00115bd7018e§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70097§> + TAB + <§@11f7adea00115bd7018f§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70098§> + TAB + <§@11f7adea00115bd70190§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70099§> + TAB + <§@11f7adea00115bd70191§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7009a§> + TAB + <§@11f7adea00115bd70192§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7009b§> + TAB + <§@11f7adea00115bd70193§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7009c§> + TAB + <§@11f7adea00115bd70194§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7009d§> + TAB + <§@11f7adea00115bd70195§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7009e§> + TAB + <§@11f7adea00115bd70196§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7009f§> + TAB + <§@11f7adea00115bd70197§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700a0§> + TAB + <§@11f7adea00115bd70198§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700a1§> + TAB + <§@11f7adea00115bd70199§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700a2§> + TAB + <§@11f7adea00115bd700a3§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700a4§> + TAB + <§@11f7adea00115bd700a5§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700a6§> + TAB + <§@11f7adea00115bd700a7§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700a8§> + TAB + <§@11f7adea00115bd7019a§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700a9§> + TAB + <§@11f7adea00115bd7019b§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700aa§> + TAB + <§@11f7adea00115bd7019c§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ab§> + TAB + <§@11f7adea00115bd7019d§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ac§> + TAB + <§@11f7adea00115bd7019e§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ad§> + TAB + <§@11f7adea00115bd7019f§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ae§> + TAB + <§@11f7adea00115bd701a0§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700af§> + TAB + <§@11f7adea00115bd701a1§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700b0§> + TAB + <§@11f7adea00115bd701a2§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700b1§> + TAB + <§@11f7adea00115bd701a3§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700b2§> + TAB + <§@11f7adea00115bd701a4§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700b3§> + TAB + <§@11f7adea00115bd701a5§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700b4§> + TAB + <§@11f7adea00115bd701a6§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700b5§> + TAB + <§@11f7adea00115bd700b6§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700b7§> + TAB + <§@11f7adea00115bd701a7§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700b8§> + TAB + <§@11f7adea00115bd701a8§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700b9§> + TAB + <§@11f7adea00115bd701a9§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ba§> + TAB + <§@11f7adea00115bd701aa§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700bb§> + TAB + <§@11f7adea00115bd701ab§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700bc§> + TAB + <§@11f7adea00115bd701ac§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700bd§> + TAB + <§@11f7adea00115bd701ad§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700be§> + TAB + <§@11f7adea00115bd701ae§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700bf§> + TAB + <§@11f7adea00115bd701af§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700c0§> + TAB + <§@11f7adea00115bd701b0§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700c1§> + TAB + <§@11f7adea00115bd701b1§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700c2§> + TAB + <§@11f7adea00115bd700c3§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700c4§> + TAB + <§@11f7adea00115bd701b2§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700c5§> + TAB + <§@11f7adea00115bd701b3§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700c6§> + TAB + <§@11f7adea00115bd701b4§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700c7§> + TAB + <§@11f7adea00115bd701b5§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700c8§> + TAB + <§@11f7adea00115bd701b6§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700c9§> + TAB + <§@11f7adea00115bd701b7§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ca§> + TAB + <§@11f7adea00115bd701b8§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700cb§> + TAB + <§@11f7adea00115bd701b9§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700cc§> + TAB + <§@11f7adea00115bd701ba§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700cd§> + TAB + <§@11f7adea00115bd701bb§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ce§> + TAB + <§@11f7adea00115bd701bc§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700cf§> + TAB + <§@11f7adea00115bd700d0§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700d1§> + TAB + <§@11f7adea00115bd700d2§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700d3§> + TAB + <§@11f7adea00115bd701bd§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700d4§> + TAB + <§@11f7adea00115bd701be§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700d5§> + TAB + <§@11f7adea00115bd701bf§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700d6§> + TAB + <§@11f7adea00115bd701c0§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700d7§> + TAB + <§@11f7adea00115bd701c1§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700d8§> + TAB + <§@11f7adea00115bd701c2§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700d9§> + TAB + <§@11f7adea00115bd701c3§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700da§> + TAB + <§@11f7adea00115bd701c4§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700db§> + TAB + <§@11f7adea00115bd701c5§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700dc§> + TAB + <§@11f7adea00115bd701c6§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700dd§> + TAB + <§@11f7adea00115bd701c7§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700de§> + TAB + <§@11f7adea00115bd701c8§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700df§> + TAB + <§@11f7adea00115bd701c9§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700e0§> + TAB + <§@11f7adea00115bd701ca§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700e1§> + TAB + <§@11f7adea00115bd700e2§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700e3§> + TAB + <§@11f7adea00115bd700e4§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700e5§> + TAB + <§@11f7adea00115bd701cb§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700e6§> + TAB + <§@11f7adea00115bd701cc§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700e7§> + TAB + <§@11f7adea00115bd701cd§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700e8§> + TAB + <§@11f7adea00115bd700e9§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ea§> + TAB + <§@11f7adea00115bd701ce§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700eb§> + TAB + <§@11f7adea00115bd701cf§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ec§> + TAB + <§@11f7adea00115bd701d0§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ed§> + TAB + <§@11f7adea00115bd701d1§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ee§> + TAB + <§@11f7adea00115bd701d2§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ef§> + TAB + <§@11f7adea00115bd701d3§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f0§> + TAB + <§@11f7adea00115bd701d4§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f1§> + TAB + <§@11f7adea00115bd701d5§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f2§> + TAB + <§@11f7adea00115bd701d6§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f3§> + TAB + <§@11f7adea00115bd701d7§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f4§> + TAB + <§@11f7adea00115bd701d8§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f5§> + TAB + <§@11f7adea00115bd701d9§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f6§> + TAB + <§@11f7adea00115bd701da§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f7§> + TAB + <§@11f7adea00115bd701db§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f8§> + TAB + <§@11f7adea00115bd701dc§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700f9§> + TAB + <§@11f7adea00115bd701dd§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700fa§> + TAB + <§@11f7adea00115bd701de§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700fb§> + TAB + <§@11f7adea00115bd701df§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700fc§> + TAB + <§@11f7adea00115bd701e0§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700fd§> + TAB + <§@11f7adea00115bd701e1§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700fe§> + TAB + <§@11f7adea00115bd701e2§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd700ff§> + TAB + <§@11f7adea00115bd701e3§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70100§> + TAB + <§@11f7adea00115bd701e4§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70101§> + TAB + <§@11f7adea00115bd701e5§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70102§> + TAB + <§@11f7adea00115bd70103§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70104§> + TAB + <§@11f7adea00115bd701e6§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70105§> + TAB + <§@11f7adea00115bd701e7§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70106§> + TAB + <§@11f7adea00115bd701e8§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70107§> + TAB + <§@11f7adea00115bd70108§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70109§> + TAB + <§@11f7adea00115bd701e9§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7010a§> + TAB + <§@11f7adea00115bd7010b§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7010c§> + TAB + <§@11f7adea00115bd701ea§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7010d§> + TAB + <§@11f7adea00115bd701eb§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7010e§> + TAB + <§@11f7adea00115bd701ec§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7010f§> + TAB + <§@11f7adea00115bd701ed§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70110§> + TAB + <§@11f7adea00115bd701ee§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70111§> + TAB + <§@11f7adea00115bd701ef§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70112§> + TAB + <§@11f7adea00115bd701f0§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70113§> + TAB + <§@11f7adea00115bd701f1§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70114§> + TAB + <§@11f7adea00115bd701f2§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70115§> + TAB + <§@11f7adea00115bd701f3§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70116§> + TAB + <§@11f7adea00115bd701f4§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70117§> + TAB + <§@11f7adea00115bd701f5§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70118§> + TAB + <§@11f7adea00115bd701f6§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70119§> + TAB + <§@11f7adea00115bd701f7§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7011a§> + TAB + <§@11f7adea00115bd701f8§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7011a§> + TAB + <§@11f7adea00115bd701f9§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7011b§> + TAB + <§@11f7adea00115bd701fa§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7011b§> + TAB + <§@11f7adea00115bd701fb§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7011c§> + TAB + <§@11f7adea00115bd701fc§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7011d§> + TAB + <§@11f7adea00115bd701fd§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7011e§> + TAB + <§@11f7adea00115bd701fe§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7011f§> + TAB + <§@11f7adea00115bd70120§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70121§> + TAB + <§@11f7adea00115bd701ff§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70122§> + TAB + <§@11f7adea00115bd70123§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70124§> + TAB + <§@11f7adea00115bd70125§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70126§> + TAB + <§@11f7adea00115bd70200§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70127§> + TAB + <§@11f7adea00115bd70201§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70128§> + TAB + <§@11f7adea00115bd70202§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd70129§> + TAB + <§@11f7adea00115bd70203§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7012a§> + TAB + <§@11f7adea00115bd70204§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7012b§> + TAB + <§@11f7adea00115bd70205§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7012c§> + TAB + <§@11f7adea00115bd70206§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7012d§> + TAB + <§@11f7adea00115bd70207§>)
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7012e§> + TAB + <§@11f7adea00115bd70208§>) 
+      ArrayAdd(garrDomainExtensions, <§@11f7adea00115bd7012f§> + TAB + <§@11f7adea00115bd70209§>)
+     type : 720896
+  procedures :
+   -
+     name : DomainCorrespondence
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1653874494186387035
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] DomainCorrespondence (<sExtension> is string, <sDomain> is string)
+      //
+      // Parameters:
+      //	sExtension (ANSI string): Domain extension to find
+      //	sDomain (ANSI string): Domain extension found
+      // Return value:
+      // 	boolean: True if a domain was found, False otherwise
+      // Automatic process of errors: RETURN FALSE
+      //
+      
+      PROCEDURE DomainCorrespondence(LOCAL sExtension is string, LOCAL sDomain is string)
+      
+      nBound is int = Dimension(garrDomainExtensions)
+      
+      FOR nSubscript = 1 TO nBound
+      	
+      	// If the domain extension corresponds to an existing one
+      	IF ExtractString(garrDomainExtensions[nSubscript], 1)[[TO Length(sExtension)]] ~= sExtension THEN
+      		sDomain = Lower(ExtractString(garrDomainExtensions[nSubscript],1))
+      		RESULT True
+      	END
+      	
+      END
+      
+      RESULT False
+     type : 458752
+   -
+     name : ProviderCorrespondence
+     internal_properties : CAAAAAgAAABejp8WKp85mY4QFAwCon8nVM+1xzBxN/qV1Gxms1RqSiykybABhLQlhRXZvzv7LGBEV3uSvo6k59yZ37k+x2UmQKkGLgslqQNqn8zaFvsp5oBicr6kycMB5qIkyui2GtL0SPAOyndXULmV7LqknhHmXMIBOh0CO5py7cGCe6iRg/TiMu4pEI5qXMsZilzdy6/ydzN2RqOEWauKFRGBKRGSM0fSYeXcbyDsX663HTijhyjJmYUlUbThNDeEaWjc6BaNRAy37oUPEAM2dNHw+Wqei/xblqb/WMuMauJJKW1HkRuvWu6d7qGteZkCmQ==
+     procedure_id : 1653874494186452571
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] Provider Correspondence (<sProvider> is string, <sDomain> is string [, <bAll> is boolean])
+      //
+      // Parameters:
+      //	sProvider (ANSI string): Sought provider
+      //	sDomain (ANSI string): Full provider found
+      //	bAll (boolean - default value=0): True to retrieve all the corresponding providers, False to retrieve the first corresponding provider
+      // Return value:
+      // 	boolean:   True if one or more providers have been found, False otherwise
+      // Automatic process of errors: RETURN FALSE
+      //
+      
+      PROCEDURE ProviderCorrespondence(LOCAL sProvider is string, sDomain is string, LOCAL bAll is boolean = False)
+      
+      
+      nBound is int = Dimension(garrProviders)
+      
+      IF bAll THEN sDomain = ""
+      
+      FOR nSubscript = 1 TO nBound
+      	
+      	// If the beginning of the provider name corresponds to the one passed in parameter
+      	IF garrProviders[nSubscript][[TO Length(sProvider)]] ~= sProvider THEN
+      		
+      		// If only the first provider must be retrieved
+      		IF NOT bAll THEN
+      			sDomain = Lower(garrProviders[nSubscript])
+      			RESULT True
+      		ELSE // If all the providers must be retrieved
+      			sDomain += Lower(garrProviders[nSubscript]) + CR
+      		END
+      		
+      	END
+      	
+      END
+      
+      RESULT (sDomain <> "")
+     type : 458752
+   -
+     name : GeneratePossibilities
+     internal_properties : CAAAAAgAAAD95ULimacbMT2puO4d/gvoIoUqC7iIktURTsMcCb8NSGADpXJP3vnLmzqid2RWbfPL7RqGFvBxudCbYsONo44IIlmk4AQZARK/zi5gZ862rKREswi3UdjgYvkACs2gRU8baIMUm7flaMy4eY53nhMt2k9ZcFcMLewcx85mrRrc573rUbueRsrHD6Qt6SL6VS16z6byOzuZTno62Kk2KNJ+7jIG9xRD6vQm4TEcAQJKkdnAaGQVUH2fhh3tLycrNSvj28MNqMu3xBhAp0vx/gj5/hUAd8zZC/XYixveSdmXJt3i6b/VJL0uKHvv6i6e1mU=
+     procedure_id : 1653874494186518107
+     type_code : 15
+     code : |1-
+      // Syntaxe :
+      //[ <Résultat> = ] GeneratePossibilities (<sTextEntered> est chaîne, <sSuggestion> est chaîne, <sName> est chaîne, <sFirstName> est chaîne, <sCompany> est chaîne, <sCountry> est chaîne)
+      //
+      // Paramètres :
+      //	sTextEntered (chaîne ANSI) : Text already entered
+      //	sSuggestion (chaîne ANSI) : Text proposed for the assisted input
+      //	sName (chaîne ANSI) : Last name
+      //	sFirstName (chaîne ANSI) : First name
+      //	sCompany (chaîne ANSI) : Company
+      //	sCountry (chaîne ANSI) : Country
+      // Traitement automatique des erreurs : RENVOYER Chaine vide "
+      //
+      
+      // Return value:
+      // 	ANSI string: List of possibilities generated from the specified parameters
+      // Automatic process of errors: RESULT Empty string "
+      PROCEDURE GeneratePossibilities(LOCAL sTextEntered is string, sSuggestion is string, LOCAL sName is string, LOCAL sFirstName is string, LOCAL sCompany is string, LOCAL sCountry is string)
+      
+      arrListPossibilities is array of string
+      sFirstPart is string
+      sSecondPart is string
+      nArobasPos is int
+      sProvider is string
+      sExtension is string = "fr"
+      sProviderNext is string 
+      
+      sProvider += sCompany + ".pro"
+      // Generates the domain extension corresponding to the country
+      CorrespondenceDomainCountry(sCountry, sExtension)
+      sProvider += [CR] + sCompany +["."]+ sExtension
+      
+      sTextEntered = Replace(Replace(Replace(sTextEntered, "-", " "), ".", " "), "_", " ")
+      
+      // Retrieves the position of "@"
+      nArobasPos = Position(sTextEntered, "@")
+      IF nArobasPos <> 0 THEN
+      	sTextEntered = sTextEntered[[nArobasPos + 1 TO]]		
+      	ProviderCorrespondence(sTextEntered, sProvider, True)
+      	sTextEntered = sTextEntered[[TO Position(sTextEntered, "@") - 1]]		
+      END			
+      
+      // Extract the two first sections from the text entered (name + first name)
+      sFirstPart = ExtractString(sTextEntered, 1, " ")
+      sSecondPart = ExtractString(sTextEntered, 2, " ")
+      
+      
+      SWITCH True
+      	// If the first part corresponds to the name
+      	CASE sFirstPart <> "" _AND_ sTextEntered ~= sName[[TO Length(sFirstPart)]]
+      		
+      		// Generates a list containing the providers, the first name and the last name
+      		FOR EACH string sProviderNext of sProvider SEPARATED BY CR
+      			
+      			IF sProviderNext <> "" THEN
+      				
+      				IF sTextEntered[[Length(sTextEntered)]] IN ("-", ".", "_") THEN
+      					arrListPossibilities.Add(sTextEntered + sFirstName + "@" + sProviderNext)
+      				ELSE
+      					arrListPossibilities.Add(sName + "." + sFirstName + "@" + sProviderNext)
+      					arrListPossibilities.Add(sTextEntered + "." + sFirstName + "@" + sProviderNext)
+      					arrListPossibilities.Add(sTextEntered + "-" + sFirstName + "@" + sProviderNext)
+      					arrListPossibilities.Add(sTextEntered + "_" + sFirstName + "@" + sProviderNext)
+      					IF length(sTextEntered) = 1 THEN
+      						arrListPossibilities.Add(sTextEntered + sFirstName[[1]] + "@" + sProviderNext)
+      					END					
+      				END	
+      								
+      			END	
+      			
+      		END
+      		
+      	// If the second part corresponds to the first name
+      	CASE sFirstPart <> "" _AND_ sTextEntered ~= sFirstName[[TO Length(sFirstPart)]]
+      		
+      		// Generates a list containing the providers, the first name and the last name
+      		FOR EACH string sProviderNext of sProvider SEPARATED BY CR
+      			
+      			IF sProviderNext <> "" THEN			
+      				
+      				IF sTextEntered[[Length(sTextEntered)]] IN ("-", ".", "_") THEN
+      					arrListPossibilities.Add(sTextEntered + sName + "@" + sProviderNext)
+      				ELSE
+      					arrListPossibilities.Add(sFirstName + "." + sName + "@" + sProviderNext)
+      					arrListPossibilities.Add(sTextEntered + "." + sName + "@" + sProviderNext)
+      					arrListPossibilities.Add(sTextEntered + "-" + sName + "@" + sProviderNext)
+      					arrListPossibilities.Add(sTextEntered + "_" + sName + "@" + sProviderNext)
+      					IF Length(sTextEntered) = 1 THEN
+      						arrListPossibilities.Add(sTextEntered + sName[[1]] + "@" + sProviderNext)
+      					END	
+      				END	
+      				
+      			END		
+      			
+      		END
+      		
+      	// If the @ character was already entered
+      	CASE nArobasPos <> 0
+      		
+      		// Generates a list containing the providers
+      		sExtension = "fr"
+      		CorrespondenceDomainCountry(sCountry, sExtension)
+      		arrListPossibilities.Add(sTextEntered[[TO Position(sTextEntered, "@")]] + sCompany + "." + sExtension)
+      		
+      		// Propose a list containing the known providers
+      		FOR EACH string sProviderNext of sProvider SEPARATED BY CR
+      			
+      			IF sProviderNext <> "" THEN
+      				arrListPossibilities.Add(sTextEntered[[TO Position(sTextEntered, "@")]] + sProviderNext)
+      			END
+      			
+      		END
+      		
+      END
+      
+      IF sSuggestion <> "" THEN
+      	// Generates the possibilities of input with the suggestion made by EmailAssistedInput
+      	arrListPossibilities.Add(GeneratePossibilities(sSuggestion, "", sName, sFirstName, sCompany, sCountry))
+      END
+      
+      // Deletes the duplicates
+      arrListPossibilities.deleteduplicate()
+      
+      RESULT arrListPossibilities
+     type : 458752
+   -
+     name : ESA_CHAR
+     internal_properties : CAAAAAgAAADDjMzoebSOQ99TrA2Sk4BMD7/L3Yj2GVlkSO8IAyBPsm3Y8s1JVV3QgNvGSDPrNllbHTU3ycHX6dnN+QwPev5fH3L/fCu9tb9nmoC5/9uQjZWxrLUbUwepTbeGg3MqS/Be0m7D+m4RMWtDYhCosMm4xWuGUvGvu4HBv5GY3lJkDiO8iS9DwkaNx2MvwOeWEk5R5HKrOpYlKiz2YfvdBAgGNw==
+     procedure_id : 1653874494186583643
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] ESA_CHAR ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: False to cancel the input
+      //
+      // Used to manage key strokes in the popup
+      //// Automatic process of errors: RETURN FALSE
+      //
+      
+      PROCEDURE ESA_CHAR()
+      
+      // If Down Arrow, Up Arrow or Enter was pressed by the user
+      IF _EVE.wParam IN (VK_DOWN, VK_UP, VK_RETURN) THEN
+      	
+      	// If the popup for possibilities is opened
+      	IF WinStatus(WIN_Popup_AssistedInput) <> NotFound THEN
+      		
+      		// If Down Arrow was pressed by the user
+      		IF _EVE.wParam = VK_DOWN THEN
+      			// Selects the next item in the list
+      			ExecuteProcess(WIN_Popup_AssistedInput.BTN_Bottom, trtClick)	
+      			RESULT False
+      		ELSE
+      			// If Up Arrow was pressed by the user
+      			IF _EVE.wParam = VK_UP THEN
+      				// Selects the previous item in the list
+      				ExecuteProcess(WIN_Popup_AssistedInput.BTN_Top, trtClick)	
+      				RESULT False
+      				
+      				// If Enter was pressed by the user
+      			ELSE
+      				// Validates the selection
+      				ExecuteProcess(WIN_Popup_AssistedInput.LIST_ASSISTED, trtSelection)	
+      				RESULT False
+      			END
+      		END
+      	END	
+      END
+      
+      
+      RESULT True
+     type : 458752
+   -
+     name : CorrespondenceDomainCountry
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1653874494186649179
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] CorrespondenceDomainCountry (<sCountry> is string, <sDomain> is string)
+      //
+      // Parameters:
+      //	sCountry (ANSI string): Country whose domain extension must be returned
+      //	sDomain (ANSI string): Domain extension found
+      // Return value:
+      // 	boolean: True if the domain extension was found
+      // Automatic process of errors: RETURN FALSE
+      //
+      
+      PROCEDURE CorrespondenceDomainCountry(LOCAL sCountry is string, sDomain is string)
+      
+      nBound is int = Dimension(garrDomainExtensions)
+      
+      FOR nSubscript = 1 TO nBound
+      	
+      	// If the domain extension corresponds to an existing one
+      	IF NoSpace(NoAccent(Upper(ExtractString(garrDomainExtensions[nSubscript],2)))) ~= NoSpace(NoAccent(Upper(sCountry))) THEN
+      		sDomain = Lower(ExtractString(garrDomainExtensions[nSubscript],1))
+      		RESULT True
+      	END
+      	
+      END
+      
+      RESULT False
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : pInterne
+resources :
+ string_res :
+  identifier : 0x11f7adea00115bd7
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : wanadoo.fr
+     index : 0
+   -
+     text :
+      en-GB : wanadoo.com
+     index : 1
+   -
+     text :
+      en-GB : voila.fr
+     index : 2
+   -
+     text :
+      en-GB : yahoo.fr
+     index : 3
+   -
+     text :
+      en-GB : yahoo.com
+     index : 4
+   -
+     text :
+      en-GB : yahoo.de
+     index : 5
+   -
+     text :
+      en-GB : orange.fr
+     index : 6
+   -
+     text :
+      en-GB : orange.com
+     index : 7
+   -
+     text :
+      en-GB : freesurf.fr
+     index : 8
+   -
+     text :
+      en-GB : free.fr
+     index : 9
+   -
+     text :
+      en-GB : online.com
+     index : 10
+   -
+     text :
+      en-GB : online.fr
+     index : 11
+   -
+     text :
+      en-GB : aol.fr
+     index : 12
+   -
+     text :
+      en-GB : aol.com
+     index : 13
+   -
+     text :
+      en-GB : aol.de
+     index : 14
+   -
+     text :
+      en-GB : earthlink.net
+     index : 15
+   -
+     text :
+      en-GB : ovh.net
+     index : 16
+   -
+     text :
+      en-GB : neuf.fr
+     index : 17
+   -
+     text :
+      en-GB : club-internet.fr
+     index : 18
+   -
+     text :
+      en-GB : cegetel.fr
+     index : 19
+   -
+     text :
+      en-GB : bouygues.fr
+     index : 20
+   -
+     text :
+      en-GB : noos.fr
+     index : 21
+   -
+     text :
+      en-GB : tele2.fr
+     index : 22
+   -
+     text :
+      en-GB : AC
+     index : 23
+   -
+     text :
+      en-GB : AD
+     index : 24
+   -
+     text :
+      en-GB : AE
+     index : 25
+   -
+     text :
+      en-GB : United Arab Emirates
+     index : 26
+   -
+     text :
+      en-GB : AF
+     index : 27
+   -
+     text :
+      en-GB : AG
+     index : 28
+   -
+     text :
+      en-GB : Antigua and Barbuda
+     index : 29
+   -
+     text :
+      en-GB : AI
+     index : 30
+   -
+     text :
+      en-GB : AL
+     index : 31
+   -
+     text :
+      en-GB : AM
+     index : 32
+   -
+     text :
+      en-GB : AN
+     index : 33
+   -
+     text :
+      en-GB : Netherlands Antilles
+     index : 34
+   -
+     text :
+      en-GB : AO
+     index : 35
+   -
+     text :
+      en-GB : AQ
+     index : 36
+   -
+     text :
+      en-GB : AR
+     index : 37
+   -
+     text :
+      en-GB : AS
+     index : 38
+   -
+     text :
+      en-GB : AT
+     index : 39
+   -
+     text :
+      en-GB : AU
+     index : 40
+   -
+     text :
+      en-GB : AW
+     index : 41
+   -
+     text :
+      en-GB : AZ
+     index : 42
+   -
+     text :
+      en-GB : BA
+     index : 43
+   -
+     text :
+      en-GB : Bosnia and Herzegovina
+     index : 44
+   -
+     text :
+      en-GB : BB
+     index : 45
+   -
+     text :
+      en-GB : BD
+     index : 46
+   -
+     text :
+      en-GB : BE
+     index : 47
+   -
+     text :
+      en-GB : BF
+     index : 48
+   -
+     text :
+      en-GB : BG
+     index : 49
+   -
+     text :
+      en-GB : BH
+     index : 50
+   -
+     text :
+      en-GB : BI
+     index : 51
+   -
+     text :
+      en-GB : BJ
+     index : 52
+   -
+     text :
+      en-GB : BM
+     index : 53
+   -
+     text :
+      en-GB : BN
+     index : 54
+   -
+     text :
+      en-GB : Brunei Darussalam
+     index : 55
+   -
+     text :
+      en-GB : BO
+     index : 56
+   -
+     text :
+      en-GB : BR
+     index : 57
+   -
+     text :
+      en-GB : BS
+     index : 58
+   -
+     text :
+      en-GB : BT
+     index : 59
+   -
+     text :
+      en-GB : BV
+     index : 60
+   -
+     text :
+      en-GB : BW
+     index : 61
+   -
+     text :
+      en-GB : BY
+     index : 62
+   -
+     text :
+      en-GB : BZ
+     index : 63
+   -
+     text :
+      en-GB : TO
+     index : 64
+   -
+     text :
+      en-GB : CC
+     index : 65
+   -
+     text :
+      en-GB : CD
+     index : 66
+   -
+     text :
+      en-GB : Congo
+     index : 67
+   -
+     text :
+      en-GB : CF
+     index : 68
+   -
+     text :
+      en-GB : Central African Republic
+     index : 69
+   -
+     text :
+      en-GB : CG
+     index : 70
+   -
+     text :
+      en-GB : CH
+     index : 71
+   -
+     text :
+      en-GB : CI
+     index : 72
+   -
+     text :
+      en-GB : CK
+     index : 73
+   -
+     text :
+      en-GB : CU
+     index : 74
+   -
+     text :
+      en-GB : CM
+     index : 75
+   -
+     text :
+      en-GB : CN
+     index : 76
+   -
+     text :
+      en-GB : COM
+     index : 77
+   -
+     text :
+      en-GB : commercial domain
+     index : 78
+   -
+     text :
+      en-GB : RS
+     index : 79
+   -
+     text :
+      en-GB : CR
+     index : 80
+   -
+     text :
+      en-GB : CU
+     index : 81
+   -
+     text :
+      en-GB : CV
+     index : 82
+   -
+     text :
+      en-GB : CX
+     index : 83
+   -
+     text :
+      en-GB : CY
+     index : 84
+   -
+     text :
+      en-GB : CZ
+     index : 85
+   -
+     text :
+      en-GB : Czech Republic
+     index : 86
+   -
+     text :
+      en-GB : OF
+     index : 87
+   -
+     text :
+      en-GB : DJ
+     index : 88
+   -
+     text :
+      en-GB : DK
+     index : 89
+   -
+     text :
+      en-GB : DM
+     index : 90
+   -
+     text :
+      en-GB : DO
+     index : 91
+   -
+     text :
+      en-GB : Dominican Republic
+     index : 92
+   -
+     text :
+      en-GB : DZ
+     index : 93
+   -
+     text :
+      en-GB : EC
+     index : 94
+   -
+     text :
+      en-GB : EDU
+     index : 95
+   -
+     text :
+      en-GB : American Education
+     index : 96
+   -
+     text :
+      en-GB : EE
+     index : 97
+   -
+     text :
+      en-GB : EG
+     index : 98
+   -
+     text :
+      en-GB : EH
+     index : 99
+   -
+     text :
+      en-GB : Western sahara
+     index : 100
+   -
+     text :
+      en-GB : ER
+     index : 101
+   -
+     text :
+      en-GB : ES
+     index : 102
+   -
+     text :
+      en-GB : AND
+     index : 103
+   -
+     text :
+      en-GB : IW
+     index : 104
+   -
+     text :
+      en-GB : FJ
+     index : 105
+   -
+     text :
+      en-GB : FK
+     index : 106
+   -
+     text :
+      en-GB : Falkland Islands
+     index : 107
+   -
+     text :
+      en-GB : FM
+     index : 108
+   -
+     text :
+      en-GB : Micronesia
+     index : 109
+   -
+     text :
+      en-GB : FO
+     index : 110
+   -
+     text :
+      en-GB : FR
+     index : 111
+   -
+     text :
+      en-GB : FX
+     index : 112
+   -
+     text :
+      en-GB : France
+     index : 113
+   -
+     text :
+      en-GB : GA
+     index : 114
+   -
+     text :
+      en-GB : GB
+     index : 115
+   -
+     text :
+      en-GB : GD
+     index : 116
+   -
+     text :
+      en-GB : GE
+     index : 117
+   -
+     text :
+      en-GB : GF
+     index : 118
+   -
+     text :
+      en-GB : GH
+     index : 119
+   -
+     text :
+      en-GB : GI
+     index : 120
+   -
+     text :
+      en-GB : GL
+     index : 121
+   -
+     text :
+      en-GB : GM
+     index : 122
+   -
+     text :
+      en-GB : GN
+     index : 123
+   -
+     text :
+      en-GB : GOV
+     index : 124
+   -
+     text :
+      en-GB : American Government
+     index : 125
+   -
+     text :
+      en-GB : GP
+     index : 126
+   -
+     text :
+      en-GB : GQ
+     index : 127
+   -
+     text :
+      en-GB : Equatorial Guinea
+     index : 128
+   -
+     text :
+      en-GB : GR
+     index : 129
+   -
+     text :
+      en-GB : GS
+     index : 130
+   -
+     text :
+      en-GB : South Georgia and the South Sandwich Islands
+     index : 131
+   -
+     text :
+      en-GB : GT
+     index : 132
+   -
+     text :
+      en-GB : GU
+     index : 133
+   -
+     text :
+      en-GB : GW
+     index : 134
+   -
+     text :
+      en-GB : GY
+     index : 135
+   -
+     text :
+      en-GB : HE
+     index : 136
+   -
+     text :
+      en-GB : HK
+     index : 137
+   -
+     text :
+      en-GB : HM
+     index : 138
+   -
+     text :
+      en-GB : Heard Island and McDonald Islands
+     index : 139
+   -
+     text :
+      en-GB : HN
+     index : 140
+   -
+     text :
+      en-GB : HR
+     index : 141
+   -
+     text :
+      en-GB : BT
+     index : 142
+   -
+     text :
+      en-GB : HU
+     index : 143
+   -
+     text :
+      en-GB : ID
+     index : 144
+   -
+     text :
+      en-GB : IE
+     index : 145
+   -
+     text :
+      en-GB : IL
+     index : 146
+   -
+     text :
+      en-GB : IN
+     index : 147
+   -
+     text :
+      en-GB : IO
+     index : 148
+   -
+     text :
+      en-GB : British Indian Ocean Territory
+     index : 149
+   -
+     text :
+      en-GB : IQ
+     index : 150
+   -
+     text :
+      en-GB : IR
+     index : 151
+   -
+     text :
+      en-GB : IS
+     index : 152
+   -
+     text :
+      en-GB : IT
+     index : 153
+   -
+     text :
+      en-GB : JM
+     index : 154
+   -
+     text :
+      en-GB : JO
+     index : 155
+   -
+     text :
+      en-GB : JP
+     index : 156
+   -
+     text :
+      en-GB : KE
+     index : 157
+   -
+     text :
+      en-GB : KG
+     index : 158
+   -
+     text :
+      en-GB : KH
+     index : 159
+   -
+     text :
+      en-GB : KI
+     index : 160
+   -
+     text :
+      en-GB : KM
+     index : 161
+   -
+     text :
+      en-GB : KN
+     index : 162
+   -
+     text :
+      en-GB : St. Kitts and Nevis
+     index : 163
+   -
+     text :
+      en-GB : KP
+     index : 164
+   -
+     text :
+      en-GB : North Korea
+     index : 165
+   -
+     text :
+      en-GB : KR
+     index : 166
+   -
+     text :
+      en-GB : Korea
+     index : 167
+   -
+     text :
+      en-GB : KW
+     index : 168
+   -
+     text :
+      en-GB : KY
+     index : 169
+   -
+     text :
+      en-GB : KZ
+     index : 170
+   -
+     text :
+      en-GB : LA
+     index : 171
+   -
+     text :
+      en-GB : LB
+     index : 172
+   -
+     text :
+      en-GB : LC
+     index : 173
+   -
+     text :
+      en-GB : LI
+     index : 174
+   -
+     text :
+      en-GB : LK
+     index : 175
+   -
+     text :
+      en-GB : LR
+     index : 176
+   -
+     text :
+      en-GB : LS
+     index : 177
+   -
+     text :
+      en-GB : LT
+     index : 178
+   -
+     text :
+      en-GB : LU
+     index : 179
+   -
+     text :
+      en-GB : LV
+     index : 180
+   -
+     text :
+      en-GB : LY
+     index : 181
+   -
+     text :
+      en-GB : Libyan Arab Jamahiriya
+     index : 182
+   -
+     text :
+      en-GB : MA
+     index : 183
+   -
+     text :
+      en-GB : MC
+     index : 184
+   -
+     text :
+      en-GB : MD
+     index : 185
+   -
+     text :
+      en-GB : MG
+     index : 186
+   -
+     text :
+      en-GB : MH
+     index : 187
+   -
+     text :
+      en-GB : MIL
+     index : 188
+   -
+     text :
+      en-GB : MK
+     index : 189
+   -
+     text :
+      en-GB : ML
+     index : 190
+   -
+     text :
+      en-GB : MM
+     index : 191
+   -
+     text :
+      en-GB : MN
+     index : 192
+   -
+     text :
+      en-GB : MB
+     index : 193
+   -
+     text :
+      en-GB : MP
+     index : 194
+   -
+     text :
+      en-GB : Northern Mariana Islands
+     index : 195
+   -
+     text :
+      en-GB : MQ
+     index : 196
+   -
+     text :
+      en-GB : MR
+     index : 197
+   -
+     text :
+      en-GB : MS
+     index : 198
+   -
+     text :
+      en-GB : MT
+     index : 199
+   -
+     text :
+      en-GB : MU
+     index : 200
+   -
+     text :
+      en-GB : MV
+     index : 201
+   -
+     text :
+      en-GB : MW
+     index : 202
+   -
+     text :
+      en-GB : MX
+     index : 203
+   -
+     text :
+      en-GB : MY
+     index : 204
+   -
+     text :
+      en-GB : MZ
+     index : 205
+   -
+     text :
+      en-GB : NA
+     index : 206
+   -
+     text :
+      en-GB : NC
+     index : 207
+   -
+     text :
+      en-GB : New Caledonia
+     index : 208
+   -
+     text :
+      en-GB : NET
+     index : 209
+   -
+     text :
+      en-GB : Domain relative to the Internet network
+     index : 210
+   -
+     text :
+      en-GB : NE
+     index : 211
+   -
+     text :
+      en-GB : NF
+     index : 212
+   -
+     text :
+      en-GB : NG
+     index : 213
+   -
+     text :
+      en-GB : NI
+     index : 214
+   -
+     text :
+      en-GB : NL
+     index : 215
+   -
+     text :
+      en-GB : NO
+     index : 216
+   -
+     text :
+      en-GB : NP
+     index : 217
+   -
+     text :
+      en-GB : NR
+     index : 218
+   -
+     text :
+      en-GB : NU
+     index : 219
+   -
+     text :
+      en-GB : NZ
+     index : 220
+   -
+     text :
+      en-GB : OM
+     index : 221
+   -
+     text :
+      en-GB : ORG
+     index : 222
+   -
+     text :
+      en-GB : PA
+     index : 223
+   -
+     text :
+      en-GB : PE
+     index : 224
+   -
+     text :
+      en-GB : PF
+     index : 225
+   -
+     text :
+      en-GB : French Polynesia
+     index : 226
+   -
+     text :
+      en-GB : PG
+     index : 227
+   -
+     text :
+      en-GB : Papua New Guinea
+     index : 228
+   -
+     text :
+      en-GB : PH
+     index : 229
+   -
+     text :
+      en-GB : PK
+     index : 230
+   -
+     text :
+      en-GB : PL
+     index : 231
+   -
+     text :
+      en-GB : PM
+     index : 232
+   -
+     text :
+      en-GB : St. Pierre and Miquelon
+     index : 233
+   -
+     text :
+      en-GB : PN
+     index : 234
+   -
+     text :
+      en-GB : PR
+     index : 235
+   -
+     text :
+      en-GB : PT
+     index : 236
+   -
+     text :
+      en-GB : PW
+     index : 237
+   -
+     text :
+      en-GB : PY
+     index : 238
+   -
+     text :
+      en-GB : QA
+     index : 239
+   -
+     text :
+      en-GB : RE
+     index : 240
+   -
+     text :
+      en-GB : RO
+     index : 241
+   -
+     text :
+      en-GB : RU
+     index : 242
+   -
+     text :
+      en-GB : RW
+     index : 243
+   -
+     text :
+      en-GB : SA
+     index : 244
+   -
+     text :
+      en-GB : SB
+     index : 245
+   -
+     text :
+      en-GB : SC
+     index : 246
+   -
+     text :
+      en-GB : SD
+     index : 247
+   -
+     text :
+      en-GB : SE
+     index : 248
+   -
+     text :
+      en-GB : SG
+     index : 249
+   -
+     text :
+      en-GB : SH
+     index : 250
+   -
+     text :
+      en-GB : IF
+     index : 251
+   -
+     text :
+      en-GB : SK
+     index : 252
+   -
+     text :
+      en-GB : SL
+     index : 253
+   -
+     text :
+      en-GB : SM
+     index : 254
+   -
+     text :
+      en-GB : SN
+     index : 255
+   -
+     text :
+      en-GB : SO
+     index : 256
+   -
+     text :
+      en-GB : SR
+     index : 257
+   -
+     text :
+      en-GB : ST
+     index : 258
+   -
+     text :
+      en-GB : Sao Tome and Principe
+     index : 259
+   -
+     text :
+      en-GB : SV
+     index : 260
+   -
+     text :
+      en-GB : SY
+     index : 261
+   -
+     text :
+      en-GB : SZ
+     index : 262
+   -
+     text :
+      en-GB : TC
+     index : 263
+   -
+     text :
+      en-GB : Turks and Caicos Islands
+     index : 264
+   -
+     text :
+      en-GB : TD
+     index : 265
+   -
+     text :
+      en-GB : TF
+     index : 266
+   -
+     text :
+      en-GB : French Southern and Antarctic Lands
+     index : 267
+   -
+     text :
+      en-GB : TG
+     index : 268
+   -
+     text :
+      en-GB : TH
+     index : 269
+   -
+     text :
+      en-GB : TJ
+     index : 270
+   -
+     text :
+      en-GB : TK
+     index : 271
+   -
+     text :
+      en-GB : TM
+     index : 272
+   -
+     text :
+      en-GB : TN
+     index : 273
+   -
+     text :
+      en-GB : TO
+     index : 274
+   -
+     text :
+      en-GB : TP
+     index : 275
+   -
+     text :
+      en-GB : TR
+     index : 276
+   -
+     text :
+      en-GB : TV
+     index : 277
+   -
+     text :
+      en-GB : TW
+     index : 278
+   -
+     text :
+      en-GB : "TZ"
+     index : 279
+   -
+     text :
+      en-GB : UA
+     index : 280
+   -
+     text :
+      en-GB : UG
+     index : 281
+   -
+     text :
+      en-GB : UK
+     index : 282
+   -
+     text :
+      en-GB : US
+     index : 283
+   -
+     text :
+      en-GB : UY
+     index : 284
+   -
+     text :
+      en-GB : UZ
+     index : 285
+   -
+     text :
+      en-GB : VA
+     index : 286
+   -
+     text :
+      en-GB : VC
+     index : 287
+   -
+     text :
+      en-GB : St. Vincent and the Grenadines
+     index : 288
+   -
+     text :
+      en-GB : VE
+     index : 289
+   -
+     text :
+      en-GB : VG
+     index : 290
+   -
+     text :
+      en-GB : Virgin Islands (British)
+     index : 291
+   -
+     text :
+      en-GB : VI
+     index : 292
+   -
+     text :
+      en-GB : Virgin Islands
+     index : 293
+   -
+     text :
+      en-GB : VN
+     index : 294
+   -
+     text :
+      en-GB : VU
+     index : 295
+   -
+     text :
+      en-GB : WF
+     index : 296
+   -
+     text :
+      en-GB : WS
+     index : 297
+   -
+     text :
+      en-GB : YE
+     index : 298
+   -
+     text :
+      en-GB : YT
+     index : 299
+   -
+     text :
+      en-GB : YU
+     index : 300
+   -
+     text :
+      en-GB : ZA
+     index : 301
+   -
+     text :
+      en-GB : MZ
+     index : 302
+   -
+     text :
+      en-GB : ZW
+     index : 303
+   -
+     text :
+      en-GB : "."
+     index : 304
+   -
+     text :
+      en-GB : fr
+     index : 305
+   -
+     text :
+      en-GB : "-"
+     index : 306
+   -
+     text :
+      en-GB : " "
+     index : 307
+   -
+     text :
+      en-GB : "@"
+     index : 308
+   -
+     text :
+      en-GB : _
+     index : 309
+   -
+     text :
+      en-GB : gmail.com
+     index : 310
+   -
+     text :
+      en-GB : Ascension
+     index : 311
+   -
+     text :
+      en-GB : Andorra
+     index : 312
+   -
+     text :
+      en-GB : Afghanistan
+     index : 313
+   -
+     text :
+      en-GB : Anguilla
+     index : 314
+   -
+     text :
+      en-GB : Albania
+     index : 315
+   -
+     text :
+      en-GB : Armenia
+     index : 316
+   -
+     text :
+      en-GB : Angola
+     index : 317
+   -
+     text :
+      en-GB : Antarctic
+     index : 318
+   -
+     text :
+      en-GB : Argentina
+     index : 319
+   -
+     text :
+      en-GB : American Samoa
+     index : 320
+   -
+     text :
+      en-GB : Austria
+     index : 321
+   -
+     text :
+      en-GB : Australia
+     index : 322
+   -
+     text :
+      en-GB : Aruba
+     index : 323
+   -
+     text :
+      en-GB : Azerbaijan
+     index : 324
+   -
+     text :
+      en-GB : Barbados
+     index : 325
+   -
+     text :
+      en-GB : Bangladesh
+     index : 326
+   -
+     text :
+      en-GB : Belgium
+     index : 327
+   -
+     text :
+      en-GB : Burkina-Faso
+     index : 328
+   -
+     text :
+      en-GB : Bulgaria
+     index : 329
+   -
+     text :
+      en-GB : Bahrain
+     index : 330
+   -
+     text :
+      en-GB : Burundi
+     index : 331
+   -
+     text :
+      en-GB : Benin
+     index : 332
+   -
+     text :
+      en-GB : Bermuda
+     index : 333
+   -
+     text :
+      en-GB : Bolivia
+     index : 334
+   -
+     text :
+      en-GB : Brazil
+     index : 335
+   -
+     text :
+      en-GB : Bahamas
+     index : 336
+   -
+     text :
+      en-GB : Bhutan
+     index : 337
+   -
+     text :
+      en-GB : Bouvet Island
+     index : 338
+   -
+     text :
+      en-GB : Botswana
+     index : 339
+   -
+     text :
+      en-GB : Belarus
+     index : 340
+   -
+     text :
+      en-GB : Belize
+     index : 341
+   -
+     text :
+      en-GB : Canada
+     index : 342
+   -
+     text :
+      en-GB : Cocos Islands
+     index : 343
+   -
+     text :
+      en-GB : Congo
+     index : 344
+   -
+     text :
+      en-GB : Switzerland
+     index : 345
+   -
+     text :
+      en-GB : Côte d'Ivoire
+     index : 346
+   -
+     text :
+      en-GB : Cook Islands
+     index : 347
+   -
+     text :
+      en-GB : Chile
+     index : 348
+   -
+     text :
+      en-GB : Cameroon
+     index : 349
+   -
+     text :
+      en-GB : China
+     index : 350
+   -
+     text :
+      en-GB : Colombia
+     index : 351
+   -
+     text :
+      en-GB : Costa Rica
+     index : 352
+   -
+     text :
+      en-GB : Cuba
+     index : 353
+   -
+     text :
+      en-GB : Cape Verde
+     index : 354
+   -
+     text :
+      en-GB : Christmas Island
+     index : 355
+   -
+     text :
+      en-GB : Cyprus
+     index : 356
+   -
+     text :
+      en-GB : Germany
+     index : 357
+   -
+     text :
+      en-GB : Djibouti
+     index : 358
+   -
+     text :
+      en-GB : Denmark
+     index : 359
+   -
+     text :
+      en-GB : Dominica
+     index : 360
+   -
+     text :
+      en-GB : Algeria
+     index : 361
+   -
+     text :
+      en-GB : Ecuador
+     index : 362
+   -
+     text :
+      en-GB : Estonia
+     index : 363
+   -
+     text :
+      en-GB : Egypt
+     index : 364
+   -
+     text :
+      en-GB : Eritrea
+     index : 365
+   -
+     text :
+      en-GB : Spain
+     index : 366
+   -
+     text :
+      en-GB : Ethiopia
+     index : 367
+   -
+     text :
+      en-GB : Finland
+     index : 368
+   -
+     text :
+      en-GB : Fiji Islands
+     index : 369
+   -
+     text :
+      en-GB : Faroe Islands
+     index : 370
+   -
+     text :
+      en-GB : France
+     index : 371
+   -
+     text :
+      en-GB : Gabon
+     index : 372
+   -
+     text :
+      en-GB : Great Britain
+     index : 373
+   -
+     text :
+      en-GB : Great Britain
+     index : 374
+   -
+     text :
+      en-GB : Grenada
+     index : 375
+   -
+     text :
+      en-GB : Georgia
+     index : 376
+   -
+     text :
+      en-GB : French Guyana
+     index : 377
+   -
+     text :
+      en-GB : Ghana
+     index : 378
+   -
+     text :
+      en-GB : Gibraltar
+     index : 379
+   -
+     text :
+      en-GB : Greenland
+     index : 380
+   -
+     text :
+      en-GB : Gambia
+     index : 381
+   -
+     text :
+      en-GB : Guinea
+     index : 382
+   -
+     text :
+      en-GB : Guadeloupe
+     index : 383
+   -
+     text :
+      en-GB : Greece
+     index : 384
+   -
+     text :
+      en-GB : Guatemala
+     index : 385
+   -
+     text :
+      en-GB : Guam
+     index : 386
+   -
+     text :
+      en-GB : Guinea-Bissau
+     index : 387
+   -
+     text :
+      en-GB : Guyana
+     index : 388
+   -
+     text :
+      en-GB : Hungary
+     index : 389
+   -
+     text :
+      en-GB : Hong Kong
+     index : 390
+   -
+     text :
+      en-GB : Honduras
+     index : 391
+   -
+     text :
+      en-GB : Croatia
+     index : 392
+   -
+     text :
+      en-GB : Haiti
+     index : 393
+   -
+     text :
+      en-GB : Indonesia
+     index : 394
+   -
+     text :
+      en-GB : Ireland
+     index : 395
+   -
+     text :
+      en-GB : Israel
+     index : 396
+   -
+     text :
+      en-GB : India
+     index : 397
+   -
+     text :
+      en-GB : Iraq
+     index : 398
+   -
+     text :
+      en-GB : Iran
+     index : 399
+   -
+     text :
+      en-GB : Iceland
+     index : 400
+   -
+     text :
+      en-GB : Italy
+     index : 401
+   -
+     text :
+      en-GB : Jamaica
+     index : 402
+   -
+     text :
+      en-GB : Jordan
+     index : 403
+   -
+     text :
+      en-GB : Japan
+     index : 404
+   -
+     text :
+      en-GB : Kenya
+     index : 405
+   -
+     text :
+      en-GB : Kyrgyzstan
+     index : 406
+   -
+     text :
+      en-GB : Cambodia
+     index : 407
+   -
+     text :
+      en-GB : Kiribati
+     index : 408
+   -
+     text :
+      en-GB : Comoros
+     index : 409
+   -
+     text :
+      en-GB : Kuwait
+     index : 410
+   -
+     text :
+      en-GB : Cayman Islands
+     index : 411
+   -
+     text :
+      en-GB : Kazakhstan
+     index : 412
+   -
+     text :
+      en-GB : Laos
+     index : 413
+   -
+     text :
+      en-GB : Lebanon
+     index : 414
+   -
+     text :
+      en-GB : St. Lucia
+     index : 415
+   -
+     text :
+      en-GB : Liechtenstein
+     index : 416
+   -
+     text :
+      en-GB : Sri Lanka
+     index : 417
+   -
+     text :
+      en-GB : Liberia
+     index : 418
+   -
+     text :
+      en-GB : Lesotho
+     index : 419
+   -
+     text :
+      en-GB : Lithuania
+     index : 420
+   -
+     text :
+      en-GB : Luxembourg
+     index : 421
+   -
+     text :
+      en-GB : Latvia
+     index : 422
+   -
+     text :
+      en-GB : Morocco
+     index : 423
+   -
+     text :
+      en-GB : Monaco
+     index : 424
+   -
+     text :
+      en-GB : Moldova
+     index : 425
+   -
+     text :
+      en-GB : Madagascar
+     index : 426
+   -
+     text :
+      en-GB : Marshall Islands
+     index : 427
+   -
+     text :
+      en-GB : American Army
+     index : 428
+   -
+     text :
+      en-GB : Macedonia
+     index : 429
+   -
+     text :
+      en-GB : Mali
+     index : 430
+   -
+     text :
+      en-GB : Myanmar
+     index : 431
+   -
+     text :
+      en-GB : Mongolia
+     index : 432
+   -
+     text :
+      en-GB : Macau
+     index : 433
+   -
+     text :
+      en-GB : Martinique
+     index : 434
+   -
+     text :
+      en-GB : Mauritania
+     index : 435
+   -
+     text :
+      en-GB : Montserrat
+     index : 436
+   -
+     text :
+      en-GB : Malta
+     index : 437
+   -
+     text :
+      en-GB : Mauritius Island
+     index : 438
+   -
+     text :
+      en-GB : Maldives
+     index : 439
+   -
+     text :
+      en-GB : Malawi
+     index : 440
+   -
+     text :
+      en-GB : Mexico
+     index : 441
+   -
+     text :
+      en-GB : Malaysia
+     index : 442
+   -
+     text :
+      en-GB : Mozambique
+     index : 443
+   -
+     text :
+      en-GB : Namibia
+     index : 444
+   -
+     text :
+      en-GB : Niger
+     index : 445
+   -
+     text :
+      en-GB : Norfolk Island
+     index : 446
+   -
+     text :
+      en-GB : Nigeria
+     index : 447
+   -
+     text :
+      en-GB : Nicaragua
+     index : 448
+   -
+     text :
+      en-GB : Netherlands
+     index : 449
+   -
+     text :
+      en-GB : Norway
+     index : 450
+   -
+     text :
+      en-GB : Nepal
+     index : 451
+   -
+     text :
+      en-GB : Nauru
+     index : 452
+   -
+     text :
+      en-GB : Niue
+     index : 453
+   -
+     text :
+      en-GB : New Zealand
+     index : 454
+   -
+     text :
+      en-GB : Oman
+     index : 455
+   -
+     text :
+      en-GB : Organization
+     index : 456
+   -
+     text :
+      en-GB : Panama
+     index : 457
+   -
+     text :
+      en-GB : Peru
+     index : 458
+   -
+     text :
+      en-GB : Philippines
+     index : 459
+   -
+     text :
+      en-GB : Pakistan
+     index : 460
+   -
+     text :
+      en-GB : Poland
+     index : 461
+   -
+     text :
+      en-GB : Pitcairn
+     index : 462
+   -
+     text :
+      en-GB : Puerto Rico
+     index : 463
+   -
+     text :
+      en-GB : Portugal
+     index : 464
+   -
+     text :
+      en-GB : Palau
+     index : 465
+   -
+     text :
+      en-GB : Paraguay
+     index : 466
+   -
+     text :
+      en-GB : Qatar
+     index : 467
+   -
+     text :
+      en-GB : Réunion
+     index : 468
+   -
+     text :
+      en-GB : Romania
+     index : 469
+   -
+     text :
+      en-GB : Russian Federation
+     index : 470
+   -
+     text :
+      en-GB : Rwanda
+     index : 471
+   -
+     text :
+      en-GB : Saudi Arabia
+     index : 472
+   -
+     text :
+      en-GB : Solomon Islands
+     index : 473
+   -
+     text :
+      en-GB : Seychelles
+     index : 474
+   -
+     text :
+      en-GB : Sudan
+     index : 475
+   -
+     text :
+      en-GB : Sweden
+     index : 476
+   -
+     text :
+      en-GB : Singapore
+     index : 477
+   -
+     text :
+      en-GB : St. Helena
+     index : 478
+   -
+     text :
+      en-GB : Slovenia
+     index : 479
+   -
+     text :
+      en-GB : Slovakia
+     index : 480
+   -
+     text :
+      en-GB : Sierra Leone
+     index : 481
+   -
+     text :
+      en-GB : San Marino
+     index : 482
+   -
+     text :
+      en-GB : Senegal
+     index : 483
+   -
+     text :
+      en-GB : Somalia
+     index : 484
+   -
+     text :
+      en-GB : Suriname
+     index : 485
+   -
+     text :
+      en-GB : El Salvador
+     index : 486
+   -
+     text :
+      en-GB : Syria
+     index : 487
+   -
+     text :
+      en-GB : Swaziland
+     index : 488
+   -
+     text :
+      en-GB : Chad
+     index : 489
+   -
+     text :
+      en-GB : Togo
+     index : 490
+   -
+     text :
+      en-GB : Thailand
+     index : 491
+   -
+     text :
+      en-GB : Tajikistan
+     index : 492
+   -
+     text :
+      en-GB : Tokelau
+     index : 493
+   -
+     text :
+      en-GB : Turkmenistan
+     index : 494
+   -
+     text :
+      en-GB : Tunisia
+     index : 495
+   -
+     text :
+      en-GB : Tonga
+     index : 496
+   -
+     text :
+      en-GB : East Timor
+     index : 497
+   -
+     text :
+      en-GB : Turkey
+     index : 498
+   -
+     text :
+      en-GB : Tuvalu
+     index : 499
+   -
+     text :
+      en-GB : Taiwan
+     index : 500
+   -
+     text :
+      en-GB : Tanzania
+     index : 501
+   -
+     text :
+      en-GB : Ukraine
+     index : 502
+   -
+     text :
+      en-GB : Uganda
+     index : 503
+   -
+     text :
+      en-GB : United Kingdom
+     index : 504
+   -
+     text :
+      en-GB : England
+     index : 505
+   -
+     text :
+      en-GB : USA
+     index : 506
+   -
+     text :
+      en-GB : United States of America
+     index : 507
+   -
+     text :
+      en-GB : Uruguay
+     index : 508
+   -
+     text :
+      en-GB : Uzbekistan
+     index : 509
+   -
+     text :
+      en-GB : Vatican City
+     index : 510
+   -
+     text :
+      en-GB : Venezuela
+     index : 511
+   -
+     text :
+      en-GB : Vietnam
+     index : 512
+   -
+     text :
+      en-GB : Vanuatu
+     index : 513
+   -
+     text :
+      en-GB : Wallis and Futuna
+     index : 514
+   -
+     text :
+      en-GB : Samoa
+     index : 515
+   -
+     text :
+      en-GB : Yemen
+     index : 516
+   -
+     text :
+      en-GB : Mayotte
+     index : 517
+   -
+     text :
+      en-GB : Yugoslavia
+     index : 518
+   -
+     text :
+      en-GB : South Africa
+     index : 519
+   -
+     text :
+      en-GB : Zambia
+     index : 520
+   -
+     text :
+      en-GB : Zimbabwe
+     index : 521
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
